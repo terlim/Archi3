@@ -5,12 +5,11 @@ mkdir ~/tmp
 cd ~/tmp
 sudo pacman -S binutils make gcc fakeroot expac yajl git
 
-curl -o PKGBUILD https://aur.archlinux.org/cgit/aur.git/plain/PKGBUILD?h=cower
-makepkg --needed --noconfirm --skippgpcheck -sri
+git clone https://aur.archlinux.org/pacaur.git
 
-curl -o PKGBUILD https://aur.archlinux.org/cgit/aur.git/plain/PKGBUILD?h=pacaur
-makepkg --needed --noconfirm --skippgpcheck -sri
+cd pacaur/
 
+makepkg -si
 cd ..
 
 rm -r tmp
