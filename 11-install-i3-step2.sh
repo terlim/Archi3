@@ -24,4 +24,4 @@ sudo pacman -S htop --noconfirm --needed
 sudo pacman -S ranger --noconfirm --needed
 sudo pacman -S curl --noconfirm --needed
 sudo pacman -S unrar zip unzip arj cabextract file-roller --noconfirm --needed
-sudo lxappearance  -S --noconfirm --needed
+sudo pacman -S lxappearance --noconfirm --needed
