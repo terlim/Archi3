@@ -35,4 +35,5 @@ sudo systemctl enable NetworkManager
 echo "numlockx &" > ${HOME}/.xinitrc
 echo "[[ -f ~/.Xresources ]] && xrdb -merge -I${HOME} ~/.Xresources" >> ${HOME}/.xinitrc
 echo "exec i3" >> ${HOME}/.xinitrc
+pacman -Rsn $(pacman -Qdtq) rxvt-unicode
 startx
