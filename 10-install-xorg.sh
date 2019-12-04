@@ -32,8 +32,13 @@ sudo pacman -S --noconfirm --needed i3status
 sudo pacman -S networkmanager network-manager-applet nm-connection-editor --noconfirm --needed
 sudo systemctl enable NetworkManager
 
-mkdir $HOME/.config/termite
+if [[ ! -d ~/.config/termite ]]; then
+    mkdir $HOME/.config/termite
+fi
 cp ./src/termite/config $HOME/.config/termite/config
+
+cp ./src/.Xresources $HOME/.Xresources
+
 echo "numlockx &" > ${HOME}/.xinitrc
 echo "[[ -f ~/.Xresources ]] && xrdb -merge -I${HOME} ~/.Xresources" >> ${HOME}/.xinitrc
 echo "setxkbmap us,ru" >> ${HOME}/.xinitrc
