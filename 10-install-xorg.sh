@@ -45,5 +45,5 @@ echo "setxkbmap us,ru" >> ${HOME}/.xinitrc
 echo "setxkbmap -model pc105" >> ${HOME}/.xinitrc
 
 echo "exec i3" >> ${HOME}/.xinitrc
-pacman -Rsn $(pacman -Qdtq) rxvt-unicode
+# sudo pacman -Rsn $(pacman -Qdtq) rxvt-unicode
 startx
