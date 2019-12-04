@@ -11,18 +11,10 @@ echo "======================================="
 echo "=    Add Yandex mirror to mirrorlist  ="
 echo "======================================="
 
-cp /etc/pacman.d/mirrorlist ${HOME}/mirrorlist
-
-echo "Server = https://mirror.yandex.ru/archlinux/\$repo/os/\$arch" >> ${HOME}/mirrorlist
-sudo cp ${HOME}/mirrorlist /etc/pacman.d/mirrorlist
 sudo pacman -S reflector --noconfirm --needed
 
+yaourt reflector-timer
 
-sudo cp ${HOME}/reflector /etc/systemd/system/reflector.service
-
-
-sudo systemctl enable reflector.service
-
-rm ${HOME}/reflector
-rm ${HOME}/mirrorlist
+sudo cp /src/reflector.conf /usr/share/reflector-timer/reflector.conf
+sudo systemctl start reflector.timer
 sudo pacman -Syy
