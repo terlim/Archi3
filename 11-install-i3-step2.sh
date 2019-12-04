@@ -25,3 +25,6 @@ sudo pacman -S ranger --noconfirm --needed
 sudo pacman -S curl --noconfirm --needed
 sudo pacman -S unrar zip unzip arj cabextract file-roller --noconfirm --needed
 sudo pacman -S lxappearance --noconfirm --needed
+echo "system reboot after 5seconds"
+sleep 5
+sudo reboot
