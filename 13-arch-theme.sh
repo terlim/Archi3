@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
-sudo pacman -S capitaine-cursors
-sudo pacman -S arc-gtk-theme
-yaourt ardis-icon-theme-circle
+sudo pacman -S capitaine-cursors --noconfirm --needed
+sudo pacman -S arc-gtk-theme --noconfirm --needed
+yaourt ardis-icon-theme-circle --noconfirm --needed
+yaourt otf-san-francisco-pro --noconfirm --needed
+
