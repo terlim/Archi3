@@ -9,3 +9,4 @@ Xft.lcdfilter: lcddefault
 *.scrollBar: false
 *scrollWithBuffer: true
 *.cursorBlink:1
+*.font: SF Pro Display 12
