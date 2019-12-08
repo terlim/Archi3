@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>Aliexpress Helper</title>
+        <link rel="stylesheet" href="/css/main.css">
+        <link rel="prefetch" href="/html/popup.html" />
+        <link rel="prerender" href="/html/popup.html" />
+        <link href="/icons/48.png" rel="icon" type="image/png" />
+    </head>
+    <body>
+
+        <div class="ali-plugin-wrap ali-plugin-wrap--settings loading">
+
+            <div class="alihelper-plugin-settings">
+
+                <form id="settingsForm" class="settings-form loading">
+                    <div class="settings-form-title settings-form-title--main">
+                        <a class="settings-form-title-link translate" href="/html/popup.html" data-localize="a_back">< Назад</a>
+                        <span class="settings-form-title-text translate" data-localize="i_extension_settings">Настройки расширения</span>
+                    </div>
+
+                    <div class="settings-form-content clearfix">
+                        <div class="settings-form-item settings-form-item--general">
+                            <div class="settings-form-title settings-form-title">
+                                <span class="icon icon-settings icon-settings--general"></span>
+                                <span class="translate" data-localize="i_general_settings">Общие настройки</span>
+                            </div>
+                            <div class="settings-form-item-fields">
+                                <div class="checkbox-row">
+                                    <input type="checkbox" class="checkbox-row__input checkbox_row_label_3" id="third" value="" checked name="search">
+                                    <label class="checkbox-row__label translate" for="third" data-localize="l_show_quicq_search">Отображать быстрый поиск в расширении</label>
+                                </div>
+
+                                <div class="checkbox-row">
+                                    <input type="checkbox" class="checkbox-row__input checkbox_row_label_5" id="dfs" value="" name="useful">
+                                    <label class="checkbox-row__label translate" for="dfs" data-localize="l_show_useful_sections">“Полезные разделы” в расширении</label>
+                                </div>
+
+                                <div class="checkbox-row">
+                                    <input type="checkbox" class="checkbox-row__input checkbox_row_label_6" id="jre" value="" checked name="tracking">
+                                    <label class="checkbox-row__label translate" for="jre" data-localize="l_show_tracking">Показывать “Трекинг посылок”</label>
+                                </div>
+
+                                <div class="checkbox-row">
+                                    <input type="checkbox" class="checkbox-row__input checkbox_row_label_7" id="imz" value="" checked name="imageZoom">
+                                    <label class="checkbox-row__label translate" for="imz" data-localize="l_image_zoom">Увеличивать картинки товаров</label>
+                                </div>
+
+                                <div class="checkbox-row">
+                                    <input type="checkbox" class="checkbox-row__input checkbox_row_label_8" id="rop" value="" name="raitingOnItemPage">
+                                    <label class="checkbox-row__label translate" for="rop" data-localize="l_show_extended_rating">Отображать расширенный рейтинг на странице товара</label>
+                                </div>
+
+                                <div class="checkbox-row">
+                                    <input type="checkbox" class="checkbox-row__input checkbox_row_label_9" id="lr" value="" checked name="raitingOnLeft">
+                                    <label class="checkbox-row__label translate" for="lr" data-localize="l_show_mini_rating">Отображать в левом углу экрана панель "рейтинга"</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="settings-form-item settings-form-item--localization">
+                            <div class="settings-form-title">
+                                <span class="icon icon-settings icon-settings--localization"></span>
+                                <span class="translate" data-localize="i_localization">Локализация</span>
+                            </div>
+                            <div class="settings-form-item-fields">
+                                <div class="select-row select-row--uiLanguage">
+                                    <label class="select-row__label translate" for="uiLanguage" data-localize="l_language">Язык</label>
+                                    <select class="select-row__select" id="uiLanguage" name="uiLanguage">
+                                        <option value="ru">Русский</option>
+                                    </select>
+                                </div>
+
+                                <div class="select-row select-row--uiCurrency">
+                                    <label class="select-row__label translate" for="uiCurrency" data-localize="l_currency">Валюта</label>
+                                    <select class="select-row__select" id="uiCurrency" name="uiCurrency">
+                                        <option value="RUB">RUB</option>
+                                    </select>
+                                    <p class="currency_warn translate hide" data-localize="i_currency_warn">Цены в этой валюте могут отличаться от цен AliExpress на 1–3%.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="settings-form-item settings-form-item--notify">
+                            <div class="settings-form-title">
+                                <span class="icon icon-settings icon-settings--notify"></span>
+                                <span class="translate" data-localize="i_notify">Уведомления</span>
+                            </div>
+                            <div class="settings-form-item-fields">
+                                <div class="checkbox-row">
+                                    <input type="checkbox" class="checkbox-row__input checkbox_row_label_10" id="push" value="" checked name="showPush">
+                                    <label class="checkbox-row__label translate" for="push" data-localize="l_show_push">PUSH-уведомления</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="settings-form-bottom clearfix">
+                        <div class="settings-form-bottom-links">
+                            <a href="https://www.youtube.com/embed/NUZKbyKVnv4?autoplay=1" class="link howto translate" id="howto-link" data-localize="a_howto">
+                                Как это работает
+                            </a>
+                            <a href="http://aliexpress-helper.ru/#support" target="_blank" class="link ali-support translate" data-localize="a_support_complains">
+                                Техподдержка и жалобы
+                            </a>
+                        </div>
+
+                        <div class="settings-form-bottom-info">
+                            <p class="item item--version">
+                                <span class="translate" data-localize="i_alihelper_name">AliExpress Helper </span> <span class="foo__version__link__number">2</span>
+                            </p>
+                            <p class="item item--extid">
+                                <span class="translate" data-localize="i_extid">Id пользователя </span> <span class="foo__extension__id"></span>
+                            </p>
+
+                        </div>
+                        <!--<a class="button button&#45;&#45;orange settings-form-bottom-button translate" data-localize="a_save">
+                            Сохранить
+                        </a>-->
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <script src="/js/lib/jquery-2.1.4.js"></script>
+        <script src="/js/lib/assets.js"></script>
+        <script src="/js/options.js"></script>
+    </body>
+</html>

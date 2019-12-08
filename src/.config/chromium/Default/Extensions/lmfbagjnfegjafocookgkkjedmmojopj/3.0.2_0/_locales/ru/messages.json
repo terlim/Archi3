@@ -1,0 +1,341 @@
+{
+   "a_back": {
+      "message": "\u003C Назад"
+   },
+   "a_cart": {
+      "message": "Корзина"
+   },
+   "a_coupons": {
+      "message": "Купоны"
+   },
+   "a_find": {
+      "message": "Найти"
+   },
+   "a_hot_products": {
+      "message": "Горячие товары"
+   },
+   "a_howto": {
+      "message": "Как это работает?"
+   },
+   "a_mall": {
+      "message": "Молл"
+   },
+   "a_my_account": {
+      "message": "Мой аккаунт"
+   },
+   "a_my_coupons": {
+      "message": "Мои купоны"
+   },
+   "a_my_orders": {
+      "message": "Мои заказы"
+   },
+   "a_my_points": {
+      "message": "Мои баллы"
+   },
+   "a_my_wishlist": {
+      "message": "Мои желания"
+   },
+   "a_save": {
+      "message": "Сохранить"
+   },
+   "a_search": {
+      "message": "Искать"
+   },
+   "a_support_complains": {
+      "message": "Помощь и поддержка"
+   },
+   "a_topsell": {
+      "message": "Бестселлеры"
+   },
+   "c_a_rollup": {
+      "message": "Свернуть"
+   },
+   "c_decreased": {
+      "message": "Снизилась на"
+   },
+   "c_increased": {
+      "message": "Поднялась на"
+   },
+   "c_my_products_empty": {
+      "message": "Здесь пока ничего нет"
+   },
+   "c_my_products_empty_add": {
+      "message": "Добавьте сюда товары для\u003Cbr> отслеживания изменения цены"
+   },
+   "c_my_products_empty_add_button": {
+      "message": "Добавить товар"
+   },
+   "c_my_products_empty_cheaper": {
+      "message": "Ничего не подешевело"
+   },
+   "c_my_products_no_data": {
+      "message": "Произошла ошибка при загрузке товаров"
+   },
+   "c_my_products_price_down": {
+      "message": "упала сегодня"
+   },
+   "c_my_products_price_none": {
+      "message": "цена не изменилась"
+   },
+   "c_my_products_price_up": {
+      "message": "поднялась сегодня"
+   },
+   "c_my_products_select_all": {
+      "message": "все"
+   },
+   "c_my_products_select_price_asc": {
+      "message": "по цене"
+   },
+   "c_my_products_select_price_down": {
+      "message": "подешевевшие"
+   },
+   "c_my_products_select_recent": {
+      "message": "последние"
+   },
+   "c_my_products_select_seller_rating": {
+      "message": "по рейтингу"
+   },
+   "c_my_products_title": {
+      "message": "\u003Cp class=\"title\">Мои\u003Cspan class=\"my_products_count\">\u003C/span>\u003C/p>\u003Cspan class=\"sub_title\">товары\u003C/span>"
+   },
+   "c_no_data": {
+      "message": "Пустота и печаль"
+   },
+   "c_no_history": {
+      "message": "К сожалению, история цены недоступна для данного товара"
+   },
+   "c_price_dynamics": {
+      "message": "\u003Cp class=\"title\">Динамика\u003C/p>\u003Cspan class=\"sub_title\">изменения цены\u003C/span>"
+   },
+   "c_price_not_changed": {
+      "message": "Цена\u003Cbr> не менялась"
+   },
+   "c_price_tooltip_down": {
+      "message": "цена снизилась"
+   },
+   "c_price_tooltip_not_changed": {
+      "message": "без изменений"
+   },
+   "c_price_tooltip_not_changed2": {
+      "message": "цена не изменилась"
+   },
+   "c_price_tooltip_up": {
+      "message": "цена выросла"
+   },
+   "c_rating_negative": {
+      "message": "недовольных"
+   },
+   "c_rating_no_data": {
+      "message": "Произошла ошибка при загрузке рейтинга"
+   },
+   "c_rating_title": {
+      "message": "Рейтинг"
+   },
+   "c_seller_rating": {
+      "message": "\u003Cp class=\"title\">Рейтинг\u003C/p>\u003Cspan class=\"sub_title\">продавца\u003C/span>"
+   },
+   "c_seller_rating_clear": {
+      "message": "Рейтинг\u003Cbr> продавца"
+   },
+   "c_seller_rating_title": {
+      "message": "Рейтинг \u003Cspan class=\"small\">продавца\u003C/span>"
+   },
+   "c_similar_empty": {
+      "message": "Похожих товаров не найдено"
+   },
+   "c_similar_error": {
+      "message": "Произошла ошибка при загрузке"
+   },
+   "c_similar_goods": {
+      "message": "\u003Cp class=\"title\">Похожие\u003Cspan class=\"similar_count\">\u003C/span>\u003C/p>\u003Cspan class=\"sub_title\">товары\u003C/span>"
+   },
+   "c_similar_info": {
+      "message": "* Список похожих товаров иногда может быть не конструктивным, мы лишь даем рекомендации"
+   },
+   "c_similar_select_price": {
+      "message": "по цене"
+   },
+   "c_similar_select_rating": {
+      "message": "по рейтингу"
+   },
+   "c_track_price": {
+      "message": "Следить за ценой"
+   },
+   "c_track_price_info": {
+      "message": "Мы сообщим о снижении цены. Товар добавится в избранное."
+   },
+   "c_track_price_loading": {
+      "message": "Загрузка..."
+   },
+   "c_track_price_watchlist": {
+      "message": "Добавить текущий товар и следить за его ценой"
+   },
+   "c_untrack_price": {
+      "message": "Не следить"
+   },
+   "c_untrack_price_watchlist": {
+      "message": "Удалить текущий товар и не следить за его ценой"
+   },
+   "i_alihelper_name": {
+      "message": "AliExpress Helper"
+   },
+   "i_currency_tooltip": {
+      "message": "У нас появилась возможность выбрать валюту"
+   },
+   "i_currency_warn": {
+      "message": "Цены в этой валюте могут отличаться от цен AliExpress на 1–3%."
+   },
+   "i_enter_trackcode": {
+      "message": "Введите ваш трек-код: пример,"
+   },
+   "i_extension_settings": {
+      "message": "Настройки расширения"
+   },
+   "i_extension_settings_small": {
+      "message": "Настройки"
+   },
+   "i_extid": {
+      "message": "Id пользователя"
+   },
+   "i_general_settings": {
+      "message": "Общие настройки"
+   },
+   "i_hide": {
+      "message": "Свернуть"
+   },
+   "i_history_ago": {
+      "message": "назад"
+   },
+   "i_history_day_1": {
+      "message": "день"
+   },
+   "i_history_day_2": {
+      "message": "дня"
+   },
+   "i_history_day_3": {
+      "message": "дней"
+   },
+   "i_history_down": {
+      "message": "упала"
+   },
+   "i_history_hree_weeks": {
+      "message": "три недели"
+   },
+   "i_history_more_than_month": {
+      "message": "больше месяца"
+   },
+   "i_history_none": {
+      "message": "не менялась"
+   },
+   "i_history_none_small": {
+      "message": "не менялась"
+   },
+   "i_history_today": {
+      "message": "сегодня"
+   },
+   "i_history_two_weeks": {
+      "message": "две недели"
+   },
+   "i_history_up": {
+      "message": "поднялась"
+   },
+   "i_history_week": {
+      "message": "неделю"
+   },
+   "i_history_yesterday": {
+      "message": "вчера"
+   },
+   "i_localization": {
+      "message": "Локализация"
+   },
+   "i_maintenance": {
+      "message": "Ведутся технические работы."
+   },
+   "i_notify": {
+      "message": "Уведомления"
+   },
+   "i_show": {
+      "message": "Развернуть"
+   },
+   "i_similar_tooltip": {
+      "message": "New! Похожие\u003Cbr> товары от других\u003Cbr> продавцов"
+   },
+   "i_version": {
+      "message": "Версия"
+   },
+   "l_currency": {
+      "message": "Валюта"
+   },
+   "l_image_zoom": {
+      "message": "Увеличивать картинки товаров"
+   },
+   "l_language": {
+      "message": "Язык"
+   },
+   "l_show_extended_rating": {
+      "message": "Отображать расширенный рейтинг на странице товара"
+   },
+   "l_show_mini_rating": {
+      "message": "Отображать в левом углу экрана панель “рейтинга”"
+   },
+   "l_show_push": {
+      "message": "PUSH-уведомления"
+   },
+   "l_show_quicq_search": {
+      "message": "Отображать быстрый поиск в расширении"
+   },
+   "l_show_tracking": {
+      "message": "Показывать “Трекинг посылок”"
+   },
+   "l_show_useful_sections": {
+      "message": "“Полезные разделы” в расширении"
+   },
+   "manifest_description": {
+      "message": "Проверка продавцов. Слежение за ценой. Трекинг посылок. Seller Check."
+   },
+   "manifest_name": {
+      "message": "АйПомощник - Безопасные покупки в Китае"
+   },
+   "n_for": {
+      "message": "на"
+   },
+   "n_price": {
+      "message": "Цена"
+   },
+   "n_price_changed": {
+      "message": "Товары подешевели"
+   },
+   "n_price_changed_button": {
+      "message": "Перейти на Aliexpress"
+   },
+   "n_price_changed_close": {
+      "message": "Закрыть"
+   },
+   "n_price_changed_down_1": {
+      "message": "Подешевел _ товар"
+   },
+   "n_price_changed_down_2": {
+      "message": "Подешевело _ товара"
+   },
+   "n_price_changed_down_3": {
+      "message": "Подешевело _ товаров"
+   },
+   "n_price_dropped": {
+      "message": "товар подешевел"
+   },
+   "n_title_dropped_many": {
+      "message": "Цены снизились"
+   },
+   "n_title_dropped_one": {
+      "message": "Цена снизились"
+   },
+   "placeholder_product_search": {
+      "message": "Поиск товаров на AliExpress"
+   },
+   "placeholder_tracking_code": {
+      "message": "Отслеживание посылок"
+   },
+   "short_name": {
+      "message": "iHelper"
+   }
+}

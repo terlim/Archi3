@@ -1,0 +1,341 @@
+{
+   "a_back": {
+      "message": "\u003C Back"
+   },
+   "a_cart": {
+      "message": "Cart"
+   },
+   "a_coupons": {
+      "message": "Coupons"
+   },
+   "a_find": {
+      "message": "Find"
+   },
+   "a_hot_products": {
+      "message": "Flash Deals"
+   },
+   "a_howto": {
+      "message": "How it works"
+   },
+   "a_mall": {
+      "message": "Brands"
+   },
+   "a_my_account": {
+      "message": "My account"
+   },
+   "a_my_coupons": {
+      "message": "My coupons"
+   },
+   "a_my_orders": {
+      "message": "My orders"
+   },
+   "a_my_points": {
+      "message": "My points"
+   },
+   "a_my_wishlist": {
+      "message": "My wishes"
+   },
+   "a_save": {
+      "message": "Save"
+   },
+   "a_search": {
+      "message": "Search"
+   },
+   "a_support_complains": {
+      "message": "Support and complaints"
+   },
+   "a_topsell": {
+      "message": "Bestsellers"
+   },
+   "c_a_rollup": {
+      "message": "Hide"
+   },
+   "c_decreased": {
+      "message": "Decreased by"
+   },
+   "c_increased": {
+      "message": "Increased by"
+   },
+   "c_my_products_empty": {
+      "message": "No items to follow the price"
+   },
+   "c_my_products_empty_add": {
+      "message": "Add items here\u003Cbr> to follow the price change"
+   },
+   "c_my_products_empty_add_button": {
+      "message": "Add item"
+   },
+   "c_my_products_empty_cheaper": {
+      "message": "Nothing fell in price"
+   },
+   "c_my_products_no_data": {
+      "message": "An error occurred while loading products"
+   },
+   "c_my_products_price_down": {
+      "message": "dropped today"
+   },
+   "c_my_products_price_none": {
+      "message": "price didn’t change"
+   },
+   "c_my_products_price_up": {
+      "message": "increased today"
+   },
+   "c_my_products_select_all": {
+      "message": "all"
+   },
+   "c_my_products_select_price_asc": {
+      "message": "by price"
+   },
+   "c_my_products_select_price_down": {
+      "message": "cheapened"
+   },
+   "c_my_products_select_recent": {
+      "message": "recent"
+   },
+   "c_my_products_select_seller_rating": {
+      "message": "by rating"
+   },
+   "c_my_products_title": {
+      "message": "\u003Cp class=\"title\">My\u003Cspan class=\"my_products_count\">\u003C/span>\u003C/p>\u003Cspan class=\"sub_title\">items\u003C/span>"
+   },
+   "c_no_data": {
+      "message": "No data to display"
+   },
+   "c_no_history": {
+      "message": "Unfortunately, the price history is unavailable for this item"
+   },
+   "c_price_dynamics": {
+      "message": "\u003Cp class=\"title\">Price\u003C/p>\u003Cspan class=\"sub_title\">dynamics\u003C/span>"
+   },
+   "c_price_not_changed": {
+      "message": "Price didn't\u003Cbr> change"
+   },
+   "c_price_tooltip_down": {
+      "message": "price\u003Cbr> dropped"
+   },
+   "c_price_tooltip_not_changed": {
+      "message": "not\u003Cbr> changed"
+   },
+   "c_price_tooltip_not_changed2": {
+      "message": "price didn't change"
+   },
+   "c_price_tooltip_up": {
+      "message": "price\u003Cbr> increased"
+   },
+   "c_rating_negative": {
+      "message": "dissatisfied"
+   },
+   "c_rating_no_data": {
+      "message": "An error occurred while loading rating"
+   },
+   "c_rating_title": {
+      "message": "Rating"
+   },
+   "c_seller_rating": {
+      "message": "\u003Cp class=\"title\">Seller's\u003C/p>\u003Cspan class=\"sub_title\">rating\u003C/span>"
+   },
+   "c_seller_rating_clear": {
+      "message": "Seller's\u003Cbr> rating"
+   },
+   "c_seller_rating_title": {
+      "message": "Seller's \u003Cspan class=\"small\">rating\u003C/span>"
+   },
+   "c_similar_empty": {
+      "message": "No similar goods found"
+   },
+   "c_similar_error": {
+      "message": "An error occurred while loading"
+   },
+   "c_similar_goods": {
+      "message": "\u003Cp class=\"title\">Similar\u003Cspan class=\"similar_count\">\u003C/span>\u003C/p>\u003Cspan class=\"sub_title\">goods\u003C/span>"
+   },
+   "c_similar_info": {
+      "message": "* List of similar goods may sometimes not be constructive, we only give recommendations"
+   },
+   "c_similar_select_price": {
+      "message": "by price"
+   },
+   "c_similar_select_rating": {
+      "message": "by rating"
+   },
+   "c_track_price": {
+      "message": "Follow the price"
+   },
+   "c_track_price_info": {
+      "message": "We’ll inform about the price drop. The item will be added to Favourites."
+   },
+   "c_track_price_loading": {
+      "message": "Loading..."
+   },
+   "c_track_price_watchlist": {
+      "message": "Add the current item and follow its price"
+   },
+   "c_untrack_price": {
+      "message": "Unfollow"
+   },
+   "c_untrack_price_watchlist": {
+      "message": "Delete the current item and do not follow its price"
+   },
+   "i_alihelper_name": {
+      "message": "AliExpress Helper"
+   },
+   "i_currency_tooltip": {
+      "message": "Now you have an opportunity to choose the currency"
+   },
+   "i_currency_warn": {
+      "message": "Prices in this currency may be different from AliExpress prices by 1–3%."
+   },
+   "i_enter_trackcode": {
+      "message": "Enter your track-code: for example,"
+   },
+   "i_extension_settings": {
+      "message": "Plugin settings"
+   },
+   "i_extension_settings_small": {
+      "message": "Settings"
+   },
+   "i_extid": {
+      "message": "User id"
+   },
+   "i_general_settings": {
+      "message": "General settings"
+   },
+   "i_hide": {
+      "message": "Hide"
+   },
+   "i_history_ago": {
+      "message": "ago"
+   },
+   "i_history_day_1": {
+      "message": "day"
+   },
+   "i_history_day_2": {
+      "message": "days"
+   },
+   "i_history_day_3": {
+      "message": "days"
+   },
+   "i_history_down": {
+      "message": "dropped"
+   },
+   "i_history_hree_weeks": {
+      "message": "3 weeks"
+   },
+   "i_history_more_than_month": {
+      "message": "over a month"
+   },
+   "i_history_none": {
+      "message": "didn't change for"
+   },
+   "i_history_none_small": {
+      "message": "didn't change"
+   },
+   "i_history_today": {
+      "message": "today"
+   },
+   "i_history_two_weeks": {
+      "message": "2 weeks"
+   },
+   "i_history_up": {
+      "message": "increased"
+   },
+   "i_history_week": {
+      "message": "1 week"
+   },
+   "i_history_yesterday": {
+      "message": "yesterday"
+   },
+   "i_localization": {
+      "message": "Localization"
+   },
+   "i_maintenance": {
+      "message": "Maintenance is in progress."
+   },
+   "i_notify": {
+      "message": "Notifications"
+   },
+   "i_show": {
+      "message": "Show"
+   },
+   "i_similar_tooltip": {
+      "message": "New! Similar goods\u003Cbr> from other sellers"
+   },
+   "i_version": {
+      "message": "Version"
+   },
+   "l_currency": {
+      "message": "Currency"
+   },
+   "l_image_zoom": {
+      "message": "Zoom in the pictures of items"
+   },
+   "l_language": {
+      "message": "Language"
+   },
+   "l_show_extended_rating": {
+      "message": "Show the extended rating on the item’s page"
+   },
+   "l_show_mini_rating": {
+      "message": "Show the panel of “Rating” in the left corner of the screen"
+   },
+   "l_show_push": {
+      "message": "PUSH-notifications"
+   },
+   "l_show_quicq_search": {
+      "message": "Show fast search in menu"
+   },
+   "l_show_tracking": {
+      "message": "Show “Packages tracking”"
+   },
+   "l_show_useful_sections": {
+      "message": "“Useful sections” in plugin"
+   },
+   "manifest_description": {
+      "message": "Sellers check and price change tracking. Package tracking on AliExpress."
+   },
+   "manifest_name": {
+      "message": "ChinaHelper - Shop assistant in Chinese stores"
+   },
+   "n_for": {
+      "message": "for"
+   },
+   "n_price": {
+      "message": "Price"
+   },
+   "n_price_changed": {
+      "message": "Goods have become cheaper"
+   },
+   "n_price_changed_button": {
+      "message": "Go to AliExpress"
+   },
+   "n_price_changed_close": {
+      "message": "Close"
+   },
+   "n_price_changed_down_1": {
+      "message": "_ item fell in price"
+   },
+   "n_price_changed_down_2": {
+      "message": "_ items fell in price"
+   },
+   "n_price_changed_down_3": {
+      "message": "_ items fell in price"
+   },
+   "n_price_dropped": {
+      "message": "price dropped"
+   },
+   "n_title_dropped_many": {
+      "message": "Prices dropped"
+   },
+   "n_title_dropped_one": {
+      "message": "Price dropped"
+   },
+   "placeholder_product_search": {
+      "message": "Search for items on AliExpress "
+   },
+   "placeholder_tracking_code": {
+      "message": "Packages tracking"
+   },
+   "short_name": {
+      "message": "ChinaHelper"
+   }
+}

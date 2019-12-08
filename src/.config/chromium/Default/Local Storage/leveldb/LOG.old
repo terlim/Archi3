@@ -1,0 +1,6 @@
+2019/12/08-19:21:22.115 2ebc Reusing MANIFEST leveldb/MANIFEST-000001
+2019/12/08-19:21:22.115 2ebc Recovering log #22
+2019/12/08-19:21:22.116 2ebc Reusing old log leveldb/000022.log 
+2019/12/08-19:21:37.772 2ffb Level-0 table #26: started
+2019/12/08-19:21:37.781 2ffb Level-0 table #26: 60744 bytes OK
+2019/12/08-19:21:37.786 2ffb Delete type=0 #22

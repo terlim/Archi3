@@ -7,6 +7,7 @@ Xft.hintstyle: hintslight
 Xft.lcdfilter: lcddefault
 
 *.scrollBar: false
-*scrollWithBuffer: true
+*.scrollWithBuffer: true
 *.cursorBlink:1
 *.font: SF Pro Display 12
+

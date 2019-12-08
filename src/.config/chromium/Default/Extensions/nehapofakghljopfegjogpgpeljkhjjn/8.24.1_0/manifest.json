@@ -1,0 +1,41 @@
+{
+   "background": {
+      "scripts": [ "background/backend.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "logo/browser_action/ru/19.png",
+         "38": "logo/browser_action/ru/38.png"
+      }
+   },
+   "chrome_settings_overrides": {
+      "search_provider": {
+         "encoding": "UTF-8",
+         "favicon_url": "https://yastatic.net/islands/_/aKnllxm-gQhidpzbZqub7qe641g.ico",
+         "image_url": "https://yandex.ru/images/search?rpt=imageview&cbird=5&clid=2224315",
+         "image_url_post_params": "upfile={google:imageThumbnail},original_width={google:imageOriginalWidth},original_height={google:imageOriginalHeight},prg=1",
+         "is_default": true,
+         "keyword": "yandex.ru",
+         "name": "__MSG_searchName__",
+         "prepopulated_id": 15,
+         "search_url": "https://yandex.ru/search/?from=chromesearch&clid=2224314&text={searchTerms}",
+         "suggest_url": "https://suggest.yandex.net/suggest-ff.cgi?uil=ru&part={searchTerms}"
+      },
+      "startup_pages": [ "https://yandex.ru?clid=2224313&homesearchextchrome=8-24-1" ]
+   },
+   "default_locale": "ru",
+   "description": "__MSG_description__",
+   "icons": {
+      "128": "logo/ru/128.png",
+      "16": "logo/ru/16.png",
+      "48": "logo/ru/48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp6ik3mqVM1Vr77n0EVnZ76g7Rpe7ODFmLcqsX0xjCiF6tFBVhZ0IUJo7maTHtEyCEM5c6YsemTFFLdA8b5DQR1nTEqoXWQlwHYgYwSK8ORum1skHPdRFSe1V7y3H0X5GD4qCUNd8Pxt6KghqFj04z7ahCOY6JfSJvih/iq3ePhvF3t0ce+b4QQz4aHGJxipH0FCdUfxdvT/M703X71saDCGzoHUVV4jCYDMrTA2MIVruk8J+HA8hM5ndzk8XXVb4zIrc4RyyKxIBFM0B0VfsuW9HEeLBTumhAIlWn/J5JKBz0sWLYRIDDChUGwE9/aNMQZLbTU4sgiIMk4i2emUbxQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "36",
+   "name": "__MSG_name__",
+   "permissions": [ "unlimitedStorage", "http://*/*", "https://*/*", "cookies", "tabs" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "8.24.1",
+   "web_accessible_resources": [ "logo/*", "includes/*" ]
+}

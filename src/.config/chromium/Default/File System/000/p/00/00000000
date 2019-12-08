@@ -1,0 +1,457 @@
+
+2019-12-08T10:03:17.555 LOG [platform] App status: install
+2019-12-08T10:03:17.558 LOG [platform] App version: 8.24.1
+2019-12-08T10:03:17.580 INFO [goodbye] set goodbye page https://yandex.ru/soft/extensions/goodbye?ver=8.24.1&os=Linux%20x86_64&stat=uninstall&brandID=yandex&clid=2224312&dateinstall=08.12.2019&yasoft=homesearchextchrome_chr&ui=%7B01FFF9CE-AD2A-AB98-D4CE-9B4F5AE5DAB4%7D&gchid=nehapofakghljopfegjogpgpeljkhjjn
+2019-12-08T10:03:17.580 INFO [ycookie] run with yasoft - homesearchextchrome, version - 8-24-1
+2019-12-08T10:03:17.580 INFO [npt] patch all ntp cookies
+2019-12-08T10:03:17.582 INFO [npt] patch url - https://yandex.ru/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575788597580,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T10:03:17.582 INFO [npt] patch url - https://www.yandex.ru/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575788597580,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T10:03:17.583 WARN [webstore] Webstore tab not found in 1 tab(s)
+2019-12-08T10:03:17.586 LOG [landing] Searching landing tab in 1 tab(s)
+2019-12-08T10:03:17.586 WARN [landing] Landing tab not found
+2019-12-08T10:03:17.586 INFO [welcome] Opening welcome page: https://yandex.ru/promo/set/welcome_portal/sethome?w=-1&l=-1&gchid=nehapofakghljopfegjogpgpeljkhjjn
+2019-12-08T10:03:17.586 INFO [npt] patch url - https://yandex.ua/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575788597580,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T10:03:17.587 INFO [npt] patch url - https://www.yandex.ua/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575788597580,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T10:03:17.607 INFO [npt] patch url - https://yandex.by/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575788597580,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T10:03:17.607 INFO [npt] patch url - https://www.yandex.by/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575788597580,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T10:03:17.615 INFO [npt] patch url - https://yandex.kz/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575788597580,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T10:03:17.616 INFO [npt] patch url - https://www.yandex.kz/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575788597580,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T10:03:17.617 INFO [npt] patch url - https://yandex.com.tr/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575788597580,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T10:03:17.617 INFO [npt] patch url - https://www.yandex.com.tr/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575788597580,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T10:03:17.759 INFO [ycookie] set ys for url `https://.yandex.ru/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T10:03:17.760 INFO [ycookie] set ys for url `https://.yandex.kz/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T10:03:17.760 INFO [ycookie] set ys for url `https://.yandex.ua/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T10:03:17.760 INFO [ycookie] set ys for url `https://.yandex.by/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T10:03:17.761 INFO [ycookie] set ys for url `https://.yandex.net/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T10:03:17.761 INFO [ycookie] set ys for url `https://.yandex.com/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T10:03:17.761 INFO [ycookie] set ys for url `https://.yandex.com.tr/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T10:03:17.761 INFO [ycookie] set ys for url `https://.ya.ru/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T10:03:17.761 INFO [ycookie] set ys for url `https://.narod.ru/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T10:03:17.762 ERROR [ycookie] err - [object Object], url=`https://.yandex.ru/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T10:03:17.766 ERROR [ycookie] err - [object Object], url=`https://.yandex.kz/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T10:03:17.766 ERROR [ycookie] err - [object Object], url=`https://.yandex.ua/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T10:03:17.766 ERROR [ycookie] err - [object Object], url=`https://.yandex.by/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T10:03:17.766 ERROR [ycookie] err - [object Object], url=`https://.yandex.net/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T10:03:17.769 ERROR [ycookie] err - [object Object], url=`https://.yandex.com/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T10:03:17.769 ERROR [ycookie] err - [object Object], url=`https://.yandex.com.tr/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T10:03:17.769 ERROR [ycookie] err - [object Object], url=`https://.ya.ru/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T10:03:17.769 ERROR [ycookie] err - [object Object], url=`https://.narod.ru/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T10:13:12.648 INFO [ycookie] update cookies via scheduler
+2019-12-08T10:13:12.652 INFO [ycookie] set ys for url `https://.yandex.ru/`, value - `homesearchextchrome.8-24-1#wprid.1575788623128748-604979508947114160300128-man1-3463`, name=`ys`
+2019-12-08T10:13:12.653 INFO [ycookie] set ys for url `https://.yandex.kz/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T10:13:12.653 INFO [ycookie] set ys for url `https://.yandex.ua/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T10:13:12.653 INFO [ycookie] set ys for url `https://.yandex.by/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T10:13:12.653 INFO [ycookie] set ys for url `https://.yandex.net/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T10:13:12.654 INFO [ycookie] set ys for url `https://.yandex.com/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T10:13:12.654 INFO [ycookie] set ys for url `https://.yandex.com.tr/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T10:13:12.654 INFO [ycookie] set ys for url `https://.ya.ru/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T10:13:12.654 INFO [ycookie] set ys for url `https://.narod.ru/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T10:13:12.656 ERROR [ycookie] err - [object Object], url=`https://.yandex.ru/`, name=`ys`, value=`homesearchextchrome.8-24-1#wprid.1575788623128748-604979508947114160300128-man1-3463`
+2019-12-08T10:13:12.656 ERROR [ycookie] err - [object Object], url=`https://.yandex.kz/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T10:13:12.656 ERROR [ycookie] err - [object Object], url=`https://.yandex.ua/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T10:13:12.656 ERROR [ycookie] err - [object Object], url=`https://.yandex.by/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T10:13:12.657 ERROR [ycookie] err - [object Object], url=`https://.yandex.net/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T10:13:12.657 ERROR [ycookie] err - [object Object], url=`https://.yandex.com/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T10:13:12.657 ERROR [ycookie] err - [object Object], url=`https://.yandex.com.tr/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T10:13:12.657 ERROR [ycookie] err - [object Object], url=`https://.ya.ru/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T10:13:12.657 ERROR [ycookie] err - [object Object], url=`https://.narod.ru/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T11:03:17.582 INFO [npt] patch all ntp cookies
+2019-12-08T11:03:17.583 INFO [npt] patch url - https://yandex.ru/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575792197583,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T11:03:17.583 INFO [npt] patch url - https://www.yandex.ru/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575792197583,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T11:03:17.585 INFO [npt] patch url - https://yandex.ua/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575792197583,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T11:03:17.585 INFO [npt] patch url - https://www.yandex.ua/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575792197583,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T11:03:17.587 INFO [npt] patch url - https://yandex.by/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575792197583,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T11:03:17.587 INFO [npt] patch url - https://www.yandex.by/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575792197583,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T11:03:17.589 INFO [npt] patch url - https://yandex.kz/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575792197583,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T11:03:17.589 INFO [npt] patch url - https://www.yandex.kz/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575792197583,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T11:03:17.590 INFO [npt] patch url - https://yandex.com.tr/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575792197583,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T11:03:17.590 INFO [npt] patch url - https://www.yandex.com.tr/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575792197583,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T11:12:28.084 LOG [platform] App status: refresh
+2019-12-08T11:12:28.085 LOG [platform] App version: 8.24.1
+2019-12-08T11:12:28.135 INFO [goodbye] set goodbye page https://yandex.ru/soft/extensions/goodbye?ver=8.24.1&os=Linux%20x86_64&stat=uninstall&brandID=yandex&clid=2224312&dateinstall=08.12.2019&yasoft=homesearchextchrome_chr&ui=%7B01FFF9CE-AD2A-AB98-D4CE-9B4F5AE5DAB4%7D&gchid=nehapofakghljopfegjogpgpeljkhjjn
+2019-12-08T11:12:28.136 INFO [ycookie] run with yasoft - homesearchextchrome, version - 8-24-1
+2019-12-08T11:12:28.136 INFO [npt] patch all ntp cookies
+2019-12-08T11:12:28.140 INFO [npt] patch url - https://yandex.ru/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575792748136,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T11:12:28.141 INFO [npt] patch url - https://www.yandex.ru/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575792748136,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T11:12:28.142 INFO [npt] patch url - https://yandex.ua/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575792748136,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T11:12:28.142 INFO [npt] patch url - https://www.yandex.ua/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575792748136,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T11:12:28.143 INFO [npt] patch url - https://yandex.by/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575792748136,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T11:12:28.145 INFO [npt] patch url - https://www.yandex.by/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575792748136,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T11:12:28.146 INFO [npt] patch url - https://yandex.kz/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575792748136,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T11:12:28.148 INFO [npt] patch url - https://www.yandex.kz/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575792748136,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T11:12:28.149 INFO [npt] patch url - https://yandex.com.tr/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575792748136,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T11:12:28.151 INFO [npt] patch url - https://www.yandex.com.tr/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575792748136,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T11:12:28.321 INFO [ycookie] set ys for url `https://.yandex.ru/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T11:12:28.322 INFO [ycookie] set ys for url `https://.yandex.kz/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T11:12:28.322 INFO [ycookie] set ys for url `https://.yandex.ua/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T11:12:28.323 INFO [ycookie] set ys for url `https://.yandex.by/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T11:12:28.323 INFO [ycookie] set ys for url `https://.yandex.net/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T11:12:28.323 INFO [ycookie] set ys for url `https://.yandex.com/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T11:12:28.323 ERROR [ycookie] err - [object Object], url=`https://.yandex.ru/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T11:12:28.324 INFO [ycookie] set ys for url `https://.yandex.com.tr/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T11:12:28.324 INFO [ycookie] set ys for url `https://.ya.ru/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T11:12:28.324 INFO [ycookie] set ys for url `https://.narod.ru/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T11:12:28.325 ERROR [ycookie] err - [object Object], url=`https://.yandex.kz/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T11:12:28.325 ERROR [ycookie] err - [object Object], url=`https://.yandex.ua/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T11:12:28.325 ERROR [ycookie] err - [object Object], url=`https://.yandex.by/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T11:12:28.326 ERROR [ycookie] err - [object Object], url=`https://.yandex.net/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T11:12:28.326 ERROR [ycookie] err - [object Object], url=`https://.yandex.com/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T11:12:28.326 ERROR [ycookie] err - [object Object], url=`https://.yandex.com.tr/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T11:12:28.326 ERROR [ycookie] err - [object Object], url=`https://.ya.ru/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T11:12:28.326 ERROR [ycookie] err - [object Object], url=`https://.narod.ru/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T11:19:43.724 INFO [ycookie] update cookies via scheduler
+2019-12-08T11:19:43.727 INFO [ycookie] set ys for url `https://.yandex.ru/`, value - `homesearchextchrome.8-24-1#wprid.1575792771382965-1544867072779505341700129-man1-3579`, name=`ys`
+2019-12-08T11:19:43.727 INFO [ycookie] set ys for url `https://.yandex.kz/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T11:19:43.727 INFO [ycookie] set ys for url `https://.yandex.ua/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T11:19:43.728 INFO [ycookie] set ys for url `https://.yandex.by/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T11:19:43.728 INFO [ycookie] set ys for url `https://.yandex.net/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T11:19:43.728 INFO [ycookie] set ys for url `https://.yandex.com/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T11:19:43.728 INFO [ycookie] set ys for url `https://.yandex.com.tr/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T11:19:43.729 INFO [ycookie] set ys for url `https://.ya.ru/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T11:19:43.729 INFO [ycookie] set ys for url `https://.narod.ru/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T11:19:43.729 ERROR [ycookie] err - [object Object], url=`https://.yandex.ru/`, name=`ys`, value=`homesearchextchrome.8-24-1#wprid.1575792771382965-1544867072779505341700129-man1-3579`
+2019-12-08T11:19:43.730 ERROR [ycookie] err - [object Object], url=`https://.yandex.kz/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T11:19:43.730 ERROR [ycookie] err - [object Object], url=`https://.yandex.ua/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T11:19:43.730 ERROR [ycookie] err - [object Object], url=`https://.yandex.by/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T11:19:43.730 ERROR [ycookie] err - [object Object], url=`https://.yandex.net/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T11:19:43.731 ERROR [ycookie] err - [object Object], url=`https://.yandex.com/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T11:19:43.731 ERROR [ycookie] err - [object Object], url=`https://.yandex.com.tr/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T11:19:43.731 ERROR [ycookie] err - [object Object], url=`https://.ya.ru/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T11:19:43.731 ERROR [ycookie] err - [object Object], url=`https://.narod.ru/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T12:12:28.138 INFO [npt] patch all ntp cookies
+2019-12-08T12:12:28.139 INFO [npt] patch url - https://yandex.ru/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575796348139,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T12:12:28.139 INFO [npt] patch url - https://www.yandex.ru/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575796348139,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T12:12:28.141 INFO [npt] patch url - https://yandex.ua/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575796348139,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T12:12:28.142 INFO [npt] patch url - https://www.yandex.ua/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575796348139,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T12:12:28.143 INFO [npt] patch url - https://yandex.by/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575796348139,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T12:12:28.143 INFO [npt] patch url - https://www.yandex.by/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575796348139,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T12:12:28.144 INFO [npt] patch url - https://yandex.kz/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575796348139,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T12:12:28.145 INFO [npt] patch url - https://www.yandex.kz/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575796348139,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T12:12:28.146 INFO [npt] patch url - https://yandex.com.tr/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575796348139,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T12:12:28.146 INFO [npt] patch url - https://www.yandex.com.tr/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575796348139,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T13:09:25.714 LOG [platform] App status: refresh
+2019-12-08T13:09:25.716 LOG [platform] App version: 8.24.1
+2019-12-08T13:09:25.738 INFO [goodbye] set goodbye page https://yandex.ru/soft/extensions/goodbye?ver=8.24.1&os=Linux%20x86_64&stat=uninstall&brandID=yandex&clid=2224312&dateinstall=08.12.2019&yasoft=homesearchextchrome_chr&ui=%7B01FFF9CE-AD2A-AB98-D4CE-9B4F5AE5DAB4%7D&gchid=nehapofakghljopfegjogpgpeljkhjjn
+2019-12-08T13:09:25.738 INFO [ycookie] run with yasoft - homesearchextchrome, version - 8-24-1
+2019-12-08T13:09:25.738 INFO [npt] patch all ntp cookies
+2019-12-08T13:09:25.740 INFO [npt] patch url - https://yandex.ru/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575799765738,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T13:09:25.740 INFO [npt] patch url - https://www.yandex.ru/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575799765738,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T13:09:25.744 INFO [npt] patch url - https://yandex.ua/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575799765738,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T13:09:25.744 INFO [npt] patch url - https://www.yandex.ua/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575799765738,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T13:09:25.745 INFO [npt] patch url - https://yandex.by/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575799765738,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T13:09:25.746 INFO [npt] patch url - https://www.yandex.by/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575799765738,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T13:09:25.747 INFO [npt] patch url - https://yandex.kz/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575799765738,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T13:09:25.747 INFO [npt] patch url - https://www.yandex.kz/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575799765738,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T13:09:25.752 INFO [npt] patch url - https://yandex.com.tr/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575799765738,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T13:09:25.753 INFO [npt] patch url - https://www.yandex.com.tr/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575799765738,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T13:09:25.867 INFO [ycookie] set ys for url `https://.yandex.ru/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T13:09:25.868 ERROR [ycookie] err - [object Object], url=`https://.yandex.ru/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T13:09:25.868 INFO [ycookie] set ys for url `https://.yandex.kz/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T13:09:25.869 INFO [ycookie] set ys for url `https://.yandex.ua/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T13:09:25.869 INFO [ycookie] set ys for url `https://.yandex.by/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T13:09:25.869 INFO [ycookie] set ys for url `https://.yandex.net/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T13:09:25.869 INFO [ycookie] set ys for url `https://.yandex.com/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T13:09:25.870 INFO [ycookie] set ys for url `https://.yandex.com.tr/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T13:09:25.870 INFO [ycookie] set ys for url `https://.ya.ru/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T13:09:25.870 INFO [ycookie] set ys for url `https://.narod.ru/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T13:09:25.871 ERROR [ycookie] err - [object Object], url=`https://.yandex.kz/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T13:09:25.872 ERROR [ycookie] err - [object Object], url=`https://.yandex.ua/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T13:09:25.872 ERROR [ycookie] err - [object Object], url=`https://.yandex.by/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T13:09:25.872 ERROR [ycookie] err - [object Object], url=`https://.yandex.net/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T13:09:25.872 ERROR [ycookie] err - [object Object], url=`https://.yandex.com/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T13:09:25.873 ERROR [ycookie] err - [object Object], url=`https://.yandex.com.tr/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T13:09:25.873 ERROR [ycookie] err - [object Object], url=`https://.ya.ru/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T13:09:25.873 ERROR [ycookie] err - [object Object], url=`https://.narod.ru/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T13:18:44.951 INFO [ycookie] update cookies via scheduler
+2019-12-08T13:18:44.954 INFO [ycookie] set ys for url `https://.yandex.ru/`, value - `homesearchextchrome.8-24-1#wprid.1575799956166476-197406745005231824300129-man1-3545`, name=`ys`
+2019-12-08T13:18:44.955 INFO [ycookie] set ys for url `https://.yandex.kz/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T13:18:44.955 INFO [ycookie] set ys for url `https://.yandex.ua/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T13:18:44.955 INFO [ycookie] set ys for url `https://.yandex.by/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T13:18:44.955 INFO [ycookie] set ys for url `https://.yandex.net/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T13:18:44.956 INFO [ycookie] set ys for url `https://.yandex.com/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T13:18:44.956 INFO [ycookie] set ys for url `https://.yandex.com.tr/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T13:18:44.956 INFO [ycookie] set ys for url `https://.ya.ru/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T13:18:44.956 INFO [ycookie] set ys for url `https://.narod.ru/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T13:18:44.957 ERROR [ycookie] err - [object Object], url=`https://.yandex.ru/`, name=`ys`, value=`homesearchextchrome.8-24-1#wprid.1575799956166476-197406745005231824300129-man1-3545`
+2019-12-08T13:18:44.957 ERROR [ycookie] err - [object Object], url=`https://.yandex.kz/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T13:18:44.957 ERROR [ycookie] err - [object Object], url=`https://.yandex.ua/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T13:18:44.957 ERROR [ycookie] err - [object Object], url=`https://.yandex.by/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T13:18:44.958 ERROR [ycookie] err - [object Object], url=`https://.yandex.net/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T13:18:44.958 ERROR [ycookie] err - [object Object], url=`https://.yandex.com/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T13:18:44.958 ERROR [ycookie] err - [object Object], url=`https://.yandex.com.tr/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T13:18:44.958 ERROR [ycookie] err - [object Object], url=`https://.ya.ru/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T13:18:44.959 ERROR [ycookie] err - [object Object], url=`https://.narod.ru/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T14:09:25.741 INFO [npt] patch all ntp cookies
+2019-12-08T14:09:25.741 INFO [npt] patch url - https://yandex.ru/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575803365741,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T14:09:25.741 INFO [npt] patch url - https://www.yandex.ru/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575803365741,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T14:09:25.743 INFO [npt] patch url - https://yandex.ua/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575803365741,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T14:09:25.743 INFO [npt] patch url - https://www.yandex.ua/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575803365741,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T14:09:25.747 INFO [npt] patch url - https://yandex.by/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575803365741,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T14:09:25.748 INFO [npt] patch url - https://www.yandex.by/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575803365741,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T14:09:25.749 INFO [npt] patch url - https://yandex.kz/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575803365741,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T14:09:25.749 INFO [npt] patch url - https://www.yandex.kz/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575803365741,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T14:09:25.749 INFO [npt] patch url - https://yandex.com.tr/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575803365741,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T14:09:25.750 INFO [npt] patch url - https://www.yandex.com.tr/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575803365741,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T14:20:43.347 LOG [platform] App status: refresh
+2019-12-08T14:20:43.349 LOG [platform] App version: 8.24.1
+2019-12-08T14:20:43.372 INFO [goodbye] set goodbye page https://yandex.ru/soft/extensions/goodbye?ver=8.24.1&os=Linux%20x86_64&stat=uninstall&brandID=yandex&clid=2224312&dateinstall=08.12.2019&yasoft=homesearchextchrome_chr&ui=%7B01FFF9CE-AD2A-AB98-D4CE-9B4F5AE5DAB4%7D&gchid=nehapofakghljopfegjogpgpeljkhjjn
+2019-12-08T14:20:43.372 INFO [ycookie] run with yasoft - homesearchextchrome, version - 8-24-1
+2019-12-08T14:20:43.373 INFO [npt] patch all ntp cookies
+2019-12-08T14:20:43.375 INFO [npt] patch url - https://yandex.ru/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575804043373,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T14:20:43.375 INFO [npt] patch url - https://www.yandex.ru/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575804043373,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T14:20:43.379 INFO [npt] patch url - https://yandex.ua/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575804043373,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T14:20:43.379 INFO [npt] patch url - https://www.yandex.ua/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575804043373,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T14:20:43.393 INFO [npt] patch url - https://yandex.by/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575804043373,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T14:20:43.394 INFO [npt] patch url - https://www.yandex.by/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575804043373,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T14:20:43.396 INFO [npt] patch url - https://yandex.kz/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575804043373,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T14:20:43.397 INFO [npt] patch url - https://www.yandex.kz/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575804043373,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T14:20:43.401 INFO [npt] patch url - https://yandex.com.tr/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575804043373,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T14:20:43.404 INFO [npt] patch url - https://www.yandex.com.tr/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575804043373,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T14:20:43.525 INFO [ycookie] set ys for url `https://.yandex.ru/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T14:20:43.531 INFO [ycookie] set ys for url `https://.yandex.kz/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T14:20:43.531 INFO [ycookie] set ys for url `https://.yandex.ua/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T14:20:43.531 INFO [ycookie] set ys for url `https://.yandex.by/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T14:20:43.533 INFO [ycookie] set ys for url `https://.yandex.net/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T14:20:43.533 INFO [ycookie] set ys for url `https://.yandex.com/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T14:20:43.533 INFO [ycookie] set ys for url `https://.yandex.com.tr/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T14:20:43.533 INFO [ycookie] set ys for url `https://.ya.ru/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T14:20:43.533 INFO [ycookie] set ys for url `https://.narod.ru/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T14:20:43.534 ERROR [ycookie] err - [object Object], url=`https://.yandex.ru/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T14:20:43.534 ERROR [ycookie] err - [object Object], url=`https://.yandex.kz/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T14:20:43.534 ERROR [ycookie] err - [object Object], url=`https://.yandex.ua/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T14:20:43.534 ERROR [ycookie] err - [object Object], url=`https://.yandex.by/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T14:20:43.535 ERROR [ycookie] err - [object Object], url=`https://.yandex.net/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T14:20:43.536 ERROR [ycookie] err - [object Object], url=`https://.yandex.com/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T14:20:43.536 ERROR [ycookie] err - [object Object], url=`https://.yandex.com.tr/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T14:20:43.536 ERROR [ycookie] err - [object Object], url=`https://.ya.ru/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T14:20:43.536 ERROR [ycookie] err - [object Object], url=`https://.narod.ru/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T14:26:51.362 INFO [ycookie] update cookies via scheduler
+2019-12-08T14:26:51.365 INFO [ycookie] set ys for url `https://.yandex.ru/`, value - `homesearchextchrome.8-24-1#wprid.1575804343114620-1624702622793247332100128-man1-3467`, name=`ys`
+2019-12-08T14:26:51.365 INFO [ycookie] set ys for url `https://.yandex.kz/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T14:26:51.365 INFO [ycookie] set ys for url `https://.yandex.ua/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T14:26:51.366 INFO [ycookie] set ys for url `https://.yandex.by/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T14:26:51.366 INFO [ycookie] set ys for url `https://.yandex.net/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T14:26:51.366 INFO [ycookie] set ys for url `https://.yandex.com/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T14:26:51.367 INFO [ycookie] set ys for url `https://.yandex.com.tr/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T14:26:51.367 INFO [ycookie] set ys for url `https://.ya.ru/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T14:26:51.367 INFO [ycookie] set ys for url `https://.narod.ru/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T14:26:51.367 ERROR [ycookie] err - [object Object], url=`https://.yandex.ru/`, name=`ys`, value=`homesearchextchrome.8-24-1#wprid.1575804343114620-1624702622793247332100128-man1-3467`
+2019-12-08T14:26:51.368 ERROR [ycookie] err - [object Object], url=`https://.yandex.kz/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T14:26:51.368 ERROR [ycookie] err - [object Object], url=`https://.yandex.ua/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T14:26:51.368 ERROR [ycookie] err - [object Object], url=`https://.yandex.by/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T14:26:51.369 ERROR [ycookie] err - [object Object], url=`https://.yandex.net/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T14:26:51.369 ERROR [ycookie] err - [object Object], url=`https://.yandex.com/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T14:26:51.369 ERROR [ycookie] err - [object Object], url=`https://.yandex.com.tr/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T14:26:51.369 ERROR [ycookie] err - [object Object], url=`https://.ya.ru/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T14:26:51.369 ERROR [ycookie] err - [object Object], url=`https://.narod.ru/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T15:10:35.874 LOG [platform] App status: refresh
+2019-12-08T15:10:35.875 LOG [platform] App version: 8.24.1
+2019-12-08T15:10:35.914 INFO [goodbye] set goodbye page https://yandex.ru/soft/extensions/goodbye?ver=8.24.1&os=Linux%20x86_64&stat=uninstall&brandID=yandex&clid=2224312&dateinstall=08.12.2019&yasoft=homesearchextchrome_chr&ui=%7B01FFF9CE-AD2A-AB98-D4CE-9B4F5AE5DAB4%7D&gchid=nehapofakghljopfegjogpgpeljkhjjn
+2019-12-08T15:10:35.915 INFO [ycookie] run with yasoft - homesearchextchrome, version - 8-24-1
+2019-12-08T15:10:35.915 INFO [npt] patch all ntp cookies
+2019-12-08T15:10:35.918 INFO [npt] patch url - https://yandex.ru/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575807035915,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T15:10:35.918 INFO [npt] patch url - https://www.yandex.ru/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575807035915,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T15:10:35.927 INFO [npt] patch url - https://yandex.ua/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575807035915,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T15:10:35.928 INFO [npt] patch url - https://www.yandex.ua/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575807035915,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T15:10:35.929 INFO [npt] patch url - https://yandex.by/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575807035915,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T15:10:35.930 INFO [npt] patch url - https://www.yandex.by/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575807035915,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T15:10:35.931 INFO [npt] patch url - https://yandex.kz/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575807035915,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T15:10:35.932 INFO [npt] patch url - https://www.yandex.kz/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575807035915,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T15:10:35.933 INFO [npt] patch url - https://yandex.com.tr/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575807035915,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T15:10:35.934 INFO [npt] patch url - https://www.yandex.com.tr/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575807035915,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T15:10:36.034 INFO [ycookie] set ys for url `https://.yandex.ru/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T15:10:36.034 INFO [ycookie] set ys for url `https://.yandex.kz/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T15:10:36.034 INFO [ycookie] set ys for url `https://.yandex.ua/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T15:10:36.034 INFO [ycookie] set ys for url `https://.yandex.by/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T15:10:36.034 INFO [ycookie] set ys for url `https://.yandex.net/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T15:10:36.035 INFO [ycookie] set ys for url `https://.yandex.com/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T15:10:36.035 INFO [ycookie] set ys for url `https://.yandex.com.tr/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T15:10:36.035 INFO [ycookie] set ys for url `https://.ya.ru/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T15:10:36.035 INFO [ycookie] set ys for url `https://.narod.ru/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T15:10:36.040 ERROR [ycookie] err - [object Object], url=`https://.yandex.ru/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T15:10:36.040 ERROR [ycookie] err - [object Object], url=`https://.yandex.kz/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T15:10:36.040 ERROR [ycookie] err - [object Object], url=`https://.yandex.ua/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T15:10:36.040 ERROR [ycookie] err - [object Object], url=`https://.yandex.by/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T15:10:36.040 ERROR [ycookie] err - [object Object], url=`https://.yandex.net/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T15:10:36.040 ERROR [ycookie] err - [object Object], url=`https://.yandex.com/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T15:10:36.040 ERROR [ycookie] err - [object Object], url=`https://.yandex.com.tr/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T15:10:36.040 ERROR [ycookie] err - [object Object], url=`https://.ya.ru/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T15:10:36.040 ERROR [ycookie] err - [object Object], url=`https://.narod.ru/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T15:16:13.105 INFO [ycookie] update cookies via scheduler
+2019-12-08T15:16:13.108 INFO [ycookie] set ys for url `https://.yandex.ru/`, value - `homesearchextchrome.8-24-1#wprid.1575807043924319-267692415096715613300125-sas1-5495`, name=`ys`
+2019-12-08T15:16:13.108 INFO [ycookie] set ys for url `https://.yandex.kz/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T15:16:13.109 INFO [ycookie] set ys for url `https://.yandex.ua/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T15:16:13.109 INFO [ycookie] set ys for url `https://.yandex.by/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T15:16:13.109 INFO [ycookie] set ys for url `https://.yandex.net/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T15:16:13.110 INFO [ycookie] set ys for url `https://.yandex.com/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T15:16:13.110 INFO [ycookie] set ys for url `https://.yandex.com.tr/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T15:16:13.110 INFO [ycookie] set ys for url `https://.ya.ru/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T15:16:13.110 INFO [ycookie] set ys for url `https://.narod.ru/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T15:16:13.111 ERROR [ycookie] err - [object Object], url=`https://.yandex.ru/`, name=`ys`, value=`homesearchextchrome.8-24-1#wprid.1575807043924319-267692415096715613300125-sas1-5495`
+2019-12-08T15:16:13.111 ERROR [ycookie] err - [object Object], url=`https://.yandex.kz/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T15:16:13.111 ERROR [ycookie] err - [object Object], url=`https://.yandex.ua/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T15:16:13.112 ERROR [ycookie] err - [object Object], url=`https://.yandex.by/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T15:16:13.112 ERROR [ycookie] err - [object Object], url=`https://.yandex.net/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T15:16:13.112 ERROR [ycookie] err - [object Object], url=`https://.yandex.com/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T15:16:13.112 ERROR [ycookie] err - [object Object], url=`https://.yandex.com.tr/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T15:16:13.112 ERROR [ycookie] err - [object Object], url=`https://.ya.ru/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T15:16:13.113 ERROR [ycookie] err - [object Object], url=`https://.narod.ru/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T16:10:35.917 INFO [npt] patch all ntp cookies
+2019-12-08T16:10:35.918 INFO [npt] patch url - https://yandex.ru/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575810635918,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T16:10:35.918 INFO [npt] patch url - https://www.yandex.ru/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575810635918,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T16:10:35.919 INFO [npt] patch url - https://yandex.ua/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575810635918,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T16:10:35.920 INFO [npt] patch url - https://www.yandex.ua/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575810635918,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T16:10:35.920 INFO [npt] patch url - https://yandex.by/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575810635918,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T16:10:35.921 INFO [npt] patch url - https://www.yandex.by/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575810635918,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T16:10:35.921 INFO [npt] patch url - https://yandex.kz/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575810635918,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T16:10:35.922 INFO [npt] patch url - https://www.yandex.kz/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575810635918,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T16:10:35.923 INFO [npt] patch url - https://yandex.com.tr/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575810635918,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T16:10:35.924 INFO [npt] patch url - https://www.yandex.com.tr/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575810635918,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T17:10:35.918 INFO [npt] patch all ntp cookies
+2019-12-08T17:10:35.918 INFO [npt] patch url - https://yandex.ru/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575814235918,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T17:10:35.919 INFO [npt] patch url - https://www.yandex.ru/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575814235918,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T17:10:35.921 INFO [npt] patch url - https://yandex.ua/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575814235918,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T17:10:35.922 INFO [npt] patch url - https://www.yandex.ua/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575814235918,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T17:10:35.923 INFO [npt] patch url - https://yandex.by/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575814235918,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T17:10:35.923 INFO [npt] patch url - https://www.yandex.by/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575814235918,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T17:10:35.924 INFO [npt] patch url - https://yandex.kz/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575814235918,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T17:10:35.925 INFO [npt] patch url - https://www.yandex.kz/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575814235918,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T17:10:35.926 INFO [npt] patch url - https://yandex.com.tr/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575814235918,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T17:10:35.926 INFO [npt] patch url - https://www.yandex.com.tr/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575814235918,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T17:55:43.887 INFO [ycookie] update cookies via scheduler
+2019-12-08T17:55:43.890 INFO [ycookie] set ys for url `https://.yandex.ru/`, value - `homesearchextchrome.8-24-1#wprid.1575810911336962-114711697052367583500130-vla1-0262`, name=`ys`
+2019-12-08T17:55:43.890 INFO [ycookie] set ys for url `https://.yandex.kz/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T17:55:43.890 INFO [ycookie] set ys for url `https://.yandex.ua/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T17:55:43.891 INFO [ycookie] set ys for url `https://.yandex.by/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T17:55:43.891 INFO [ycookie] set ys for url `https://.yandex.net/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T17:55:43.891 INFO [ycookie] set ys for url `https://.yandex.com/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T17:55:43.891 INFO [ycookie] set ys for url `https://.yandex.com.tr/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T17:55:43.892 INFO [ycookie] set ys for url `https://.ya.ru/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T17:55:43.892 INFO [ycookie] set ys for url `https://.narod.ru/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T17:55:43.892 ERROR [ycookie] err - [object Object], url=`https://.yandex.ru/`, name=`ys`, value=`homesearchextchrome.8-24-1#wprid.1575810911336962-114711697052367583500130-vla1-0262`
+2019-12-08T17:55:43.893 ERROR [ycookie] err - [object Object], url=`https://.yandex.kz/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T17:55:43.893 ERROR [ycookie] err - [object Object], url=`https://.yandex.ua/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T17:55:43.893 ERROR [ycookie] err - [object Object], url=`https://.yandex.by/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T17:55:43.893 ERROR [ycookie] err - [object Object], url=`https://.yandex.net/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T17:55:43.893 ERROR [ycookie] err - [object Object], url=`https://.yandex.com/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T17:55:43.894 ERROR [ycookie] err - [object Object], url=`https://.yandex.com.tr/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T17:55:43.894 ERROR [ycookie] err - [object Object], url=`https://.ya.ru/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T17:55:43.894 ERROR [ycookie] err - [object Object], url=`https://.narod.ru/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T18:10:35.919 INFO [npt] patch all ntp cookies
+2019-12-08T18:10:35.919 INFO [npt] patch url - https://yandex.ru/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575817835919,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T18:10:35.920 INFO [npt] patch url - https://www.yandex.ru/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575817835919,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T18:10:35.921 INFO [npt] patch url - https://yandex.ua/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575817835919,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T18:10:35.922 INFO [npt] patch url - https://www.yandex.ua/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575817835919,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T18:10:35.923 INFO [npt] patch url - https://yandex.by/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575817835919,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T18:10:35.923 INFO [npt] patch url - https://www.yandex.by/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575817835919,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T18:10:35.924 INFO [npt] patch url - https://yandex.kz/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575817835919,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T18:10:35.924 INFO [npt] patch url - https://www.yandex.kz/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575817835919,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T18:10:35.926 INFO [npt] patch url - https://yandex.com.tr/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575817835919,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T18:10:35.926 INFO [npt] patch url - https://www.yandex.com.tr/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575817835919,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T19:10:35.919 INFO [npt] patch all ntp cookies
+2019-12-08T19:10:35.920 INFO [npt] patch url - https://yandex.ru/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575821435920,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T19:10:35.920 INFO [npt] patch url - https://www.yandex.ru/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575821435920,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T19:10:35.922 INFO [npt] patch url - https://yandex.ua/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575821435920,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T19:10:35.922 INFO [npt] patch url - https://www.yandex.ua/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575821435920,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T19:10:35.923 INFO [npt] patch url - https://yandex.by/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575821435920,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T19:10:35.924 INFO [npt] patch url - https://www.yandex.by/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575821435920,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T19:10:35.925 INFO [npt] patch url - https://yandex.kz/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575821435920,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T19:10:35.926 INFO [npt] patch url - https://www.yandex.kz/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575821435920,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T19:10:35.927 INFO [npt] patch url - https://yandex.com.tr/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575821435920,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T19:10:35.928 INFO [npt] patch url - https://www.yandex.com.tr/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575821435920,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T19:21:22.126 LOG [platform] App status: refresh
+2019-12-08T19:21:22.132 LOG [platform] App version: 8.24.1
+2019-12-08T19:21:22.196 INFO [goodbye] set goodbye page https://yandex.ru/soft/extensions/goodbye?ver=8.24.1&os=Linux%20x86_64&stat=uninstall&brandID=yandex&clid=2224312&dateinstall=08.12.2019&yasoft=homesearchextchrome_chr&ui=%7B01FFF9CE-AD2A-AB98-D4CE-9B4F5AE5DAB4%7D&gchid=nehapofakghljopfegjogpgpeljkhjjn
+2019-12-08T19:21:22.197 INFO [ycookie] run with yasoft - homesearchextchrome, version - 8-24-1
+2019-12-08T19:21:22.197 INFO [npt] patch all ntp cookies
+2019-12-08T19:21:22.199 INFO [npt] patch url - https://yandex.ru/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575822082197,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T19:21:22.199 INFO [npt] patch url - https://www.yandex.ru/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575822082197,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T19:21:22.213 INFO [npt] patch url - https://yandex.ua/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575822082197,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T19:21:22.214 INFO [npt] patch url - https://www.yandex.ua/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575822082197,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T19:21:22.215 INFO [npt] patch url - https://yandex.by/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575822082197,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T19:21:22.215 INFO [npt] patch url - https://www.yandex.by/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575822082197,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T19:21:22.216 INFO [npt] patch url - https://yandex.kz/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575822082197,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T19:21:22.217 INFO [npt] patch url - https://www.yandex.kz/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575822082197,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T19:21:22.219 INFO [npt] patch url - https://yandex.com.tr/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575822082197,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T19:21:22.219 INFO [npt] patch url - https://www.yandex.com.tr/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575822082197,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T19:21:22.350 INFO [ycookie] set ys for url `https://.yandex.ru/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T19:21:22.350 INFO [ycookie] set ys for url `https://.yandex.kz/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T19:21:22.350 INFO [ycookie] set ys for url `https://.yandex.ua/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T19:21:22.351 INFO [ycookie] set ys for url `https://.yandex.by/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T19:21:22.351 INFO [ycookie] set ys for url `https://.yandex.net/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T19:21:22.351 INFO [ycookie] set ys for url `https://.yandex.com/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T19:21:22.351 INFO [ycookie] set ys for url `https://.yandex.com.tr/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T19:21:22.351 INFO [ycookie] set ys for url `https://.ya.ru/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T19:21:22.352 INFO [ycookie] set ys for url `https://.narod.ru/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T19:21:22.354 ERROR [ycookie] err - [object Object], url=`https://.yandex.ru/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T19:21:22.354 ERROR [ycookie] err - [object Object], url=`https://.yandex.kz/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T19:21:22.354 ERROR [ycookie] err - [object Object], url=`https://.yandex.ua/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T19:21:22.355 ERROR [ycookie] err - [object Object], url=`https://.yandex.by/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T19:21:22.355 ERROR [ycookie] err - [object Object], url=`https://.yandex.net/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T19:21:22.355 ERROR [ycookie] err - [object Object], url=`https://.yandex.com/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T19:21:22.355 ERROR [ycookie] err - [object Object], url=`https://.yandex.com.tr/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T19:21:22.355 ERROR [ycookie] err - [object Object], url=`https://.ya.ru/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T19:21:22.356 ERROR [ycookie] err - [object Object], url=`https://.narod.ru/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T19:24:29.280 LOG [platform] App status: refresh
+2019-12-08T19:24:29.282 LOG [platform] App version: 8.24.1
+2019-12-08T19:24:29.321 INFO [goodbye] set goodbye page https://yandex.ru/soft/extensions/goodbye?ver=8.24.1&os=Linux%20x86_64&stat=uninstall&brandID=yandex&clid=2224312&dateinstall=08.12.2019&yasoft=homesearchextchrome_chr&ui=%7B01FFF9CE-AD2A-AB98-D4CE-9B4F5AE5DAB4%7D&gchid=nehapofakghljopfegjogpgpeljkhjjn
+2019-12-08T19:24:29.322 INFO [ycookie] run with yasoft - homesearchextchrome, version - 8-24-1
+2019-12-08T19:24:29.322 INFO [npt] patch all ntp cookies
+2019-12-08T19:24:29.327 INFO [npt] patch url - https://yandex.ru/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575822269323,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T19:24:29.330 INFO [npt] patch url - https://www.yandex.ru/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575822269323,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T19:24:29.334 INFO [npt] patch url - https://yandex.ua/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575822269323,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T19:24:29.335 INFO [npt] patch url - https://www.yandex.ua/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575822269323,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T19:24:29.336 INFO [npt] patch url - https://yandex.by/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575822269323,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T19:24:29.343 INFO [npt] patch url - https://www.yandex.by/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575822269323,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T19:24:29.345 INFO [npt] patch url - https://yandex.kz/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575822269323,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T19:24:29.346 INFO [npt] patch url - https://www.yandex.kz/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575822269323,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T19:24:29.351 INFO [npt] patch url - https://yandex.com.tr/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575822269323,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T19:24:29.351 INFO [npt] patch url - https://www.yandex.com.tr/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575822269323,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T19:24:29.507 INFO [ycookie] set ys for url `https://.yandex.ru/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T19:24:29.508 INFO [ycookie] set ys for url `https://.yandex.kz/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T19:24:29.508 INFO [ycookie] set ys for url `https://.yandex.ua/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T19:24:29.508 INFO [ycookie] set ys for url `https://.yandex.by/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T19:24:29.508 INFO [ycookie] set ys for url `https://.yandex.net/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T19:24:29.509 INFO [ycookie] set ys for url `https://.yandex.com/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T19:24:29.509 INFO [ycookie] set ys for url `https://.yandex.com.tr/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T19:24:29.509 INFO [ycookie] set ys for url `https://.ya.ru/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T19:24:29.509 INFO [ycookie] set ys for url `https://.narod.ru/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T19:24:29.510 ERROR [ycookie] err - [object Object], url=`https://.yandex.ru/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T19:24:29.511 ERROR [ycookie] err - [object Object], url=`https://.yandex.kz/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T19:24:29.511 ERROR [ycookie] err - [object Object], url=`https://.yandex.ua/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T19:24:29.511 ERROR [ycookie] err - [object Object], url=`https://.yandex.by/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T19:24:29.511 ERROR [ycookie] err - [object Object], url=`https://.yandex.net/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T19:24:29.511 ERROR [ycookie] err - [object Object], url=`https://.yandex.com/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T19:24:29.511 ERROR [ycookie] err - [object Object], url=`https://.yandex.com.tr/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T19:24:29.511 ERROR [ycookie] err - [object Object], url=`https://.ya.ru/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T19:24:29.512 ERROR [ycookie] err - [object Object], url=`https://.narod.ru/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T19:31:23.622 INFO [ycookie] update cookies via scheduler
+2019-12-08T19:31:23.624 INFO [ycookie] set ys for url `https://.yandex.ru/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T19:31:23.625 INFO [ycookie] set ys for url `https://.yandex.kz/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T19:31:23.625 INFO [ycookie] set ys for url `https://.yandex.ua/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T19:31:23.625 INFO [ycookie] set ys for url `https://.yandex.by/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T19:31:23.626 INFO [ycookie] set ys for url `https://.yandex.net/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T19:31:23.626 INFO [ycookie] set ys for url `https://.yandex.com/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T19:31:23.626 INFO [ycookie] set ys for url `https://.yandex.com.tr/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T19:31:23.626 INFO [ycookie] set ys for url `https://.ya.ru/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T19:31:23.627 ERROR [ycookie] err - [object Object], url=`https://.yandex.ru/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T19:31:23.627 INFO [ycookie] set ys for url `https://.narod.ru/`, value - `homesearchextchrome.8-24-1`, name=`ys`
+2019-12-08T19:31:23.627 ERROR [ycookie] err - [object Object], url=`https://.yandex.kz/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T19:31:23.628 ERROR [ycookie] err - [object Object], url=`https://.yandex.ua/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T19:31:23.628 ERROR [ycookie] err - [object Object], url=`https://.yandex.by/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T19:31:23.628 ERROR [ycookie] err - [object Object], url=`https://.yandex.net/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T19:31:23.628 ERROR [ycookie] err - [object Object], url=`https://.yandex.com/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T19:31:23.628 ERROR [ycookie] err - [object Object], url=`https://.yandex.com.tr/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T19:31:23.628 ERROR [ycookie] err - [object Object], url=`https://.ya.ru/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T19:31:23.629 ERROR [ycookie] err - [object Object], url=`https://.narod.ru/`, name=`ys`, value=`homesearchextchrome.8-24-1`
+2019-12-08T20:24:29.324 INFO [npt] patch all ntp cookies
+2019-12-08T20:24:29.326 INFO [npt] patch url - https://yandex.ru/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575825869325,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T20:24:29.326 INFO [npt] patch url - https://www.yandex.ru/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575825869325,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T20:24:29.327 INFO [npt] patch url - https://yandex.ua/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575825869325,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T20:24:29.327 INFO [npt] patch url - https://www.yandex.ua/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575825869325,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T20:24:29.327 INFO [npt] patch url - https://yandex.by/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575825869325,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T20:24:29.328 INFO [npt] patch url - https://www.yandex.by/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575825869325,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T20:24:29.328 INFO [npt] patch url - https://yandex.kz/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575825869325,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T20:24:29.328 INFO [npt] patch url - https://www.yandex.kz/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575825869325,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T20:24:29.329 INFO [npt] patch url - https://yandex.com.tr/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575825869325,"d":{"clid":"2224314","from":"chromesearch"}}
+2019-12-08T20:24:29.329 INFO [npt] patch url - https://www.yandex.com.tr/chrome/newtab/, name - ext-nehapofakghljopfegjogpgpeljkhjjn, value - {"id":1575788597.568,"ud":1575788597.568,"t":1575825869325,"d":{"clid":"2224314","from":"chromesearch"}}
