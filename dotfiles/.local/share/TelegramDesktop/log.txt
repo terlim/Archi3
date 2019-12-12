@@ -1,0 +1,55 @@
+[2019.12.12 16:07:39] Launched version: 1008015, install beta: [FALSE], alpha: 0, debug mode: [FALSE], test dc: [FALSE]
+[2019.12.12 16:07:39] Executable dir: /usr/bin/, name: telegram-desktop
+[2019.12.12 16:07:39] Initial working dir: /home/terlim/
+[2019.12.12 16:07:39] Working dir: /home/terlim/.local/share/TelegramDesktop/
+[2019.12.12 16:07:39] Command line: telegram-desktop
+[2019.12.12 16:07:39] Executable path before check: /usr/bin/telegram-desktop
+[2019.12.12 16:07:39] Logs started
+[2019.12.12 16:07:39] Connecting local socket to /tmp/9bdd1debf6ab16ca9b9652796f87e596-{87A94AB0-E370-4cde-98D3-ACC110C5967D}...
+[2019.12.12 16:07:39] This is the only instance of Telegram, starting server and app...
+[2019.12.12 16:07:39] Moved logging from '/home/terlim/.local/share/TelegramDesktop/log_start0.txt' to '/home/terlim/.local/share/TelegramDesktop/log.txt'!
+[2019.12.12 16:07:39] Primary screen DPI: 96
+[2019.12.12 16:07:39] Font Error: could not resolve 'Open Sans' font, got 'Arimo'.
+[2019.12.12 16:07:39] Font Error: could not resolve 'Open Sans' font, got 'Arimo'.
+[2019.12.12 16:07:39] Font Error: could not resolve 'Open Sans Semibold' font, got 'Arimo'.
+[2019.12.12 16:07:39] Could not load 'ayatana-appindicator3' with version 1 :(
+[2019.12.12 16:07:39] Could not load 'appindicator3' with version 1 :(
+[2019.12.12 16:07:39] Error: failed to load 'gdk_x11_drawable_get_xdisplay' function!
+[2019.12.12 16:07:39] Getting DE, XDG_CURRENT_DESKTOP: 'i3'
+[2019.12.12 16:07:39] Getting DE, DESKTOP_SESSION: 'i3'
+[2019.12.12 16:07:39] Getting DE, KDE_SESSION_VERSION: ''
+[2019.12.12 16:07:39] Getting DE, GNOME_DESKTOP_SESSION_ID: ''
+[2019.12.12 16:07:39] Getting DE, KDE_FULL_SESSION: ''
+[2019.12.12 16:07:39] DE: Other
+[2019.12.12 16:07:39] Tray Icon: Try Qt = [TRUE], Prefer appindicator = [FALSE]
+[2019.12.12 16:07:39] App Info: reading settings...
+[2019.12.12 16:07:39] App Info: reading encrypted settings...
+[2019.12.12 16:07:39] Lang Info: Loaded cached, keys: 2525
+[2019.12.12 16:07:40] OpenAL Logging Level: (not set)
+[2019.12.12 16:07:40] Audio Playback Devices: OpenAL Soft
+[2019.12.12 16:07:40] Audio Playback Default Device: OpenAL Soft
+[2019.12.12 16:07:41] Audio Capture Devices: Monitor of EMU10k2/CA0100/CA0102/CA10200 [Sound Blaster Audigy Series] (SB0359 Audigy 2 ZS) Аналоговый стерео
+[2019.12.12 16:07:41] Audio Capture Default Device: Monitor of EMU10k2/CA0100/CA0102/CA10200 [Sound Blaster Audigy Series] (SB0359 Audigy 2 ZS) Аналоговый стерео
+[2019.12.12 16:07:41] App Info: reading map...
+[2019.12.12 16:07:41] App Info: reading encrypted map...
+[2019.12.12 16:07:41] App Info: reading encrypted user settings...
+[2019.12.12 16:07:41] App Info: encrypted user settings read.
+[2019.12.12 16:07:41] App Info: reading encrypted mtp data...
+[2019.12.12 16:07:41] MTP Info: read keys, current: 4, to destroy: 0
+[2019.12.12 16:07:41] Map read time: 7
+[2019.12.12 16:07:41] TCP Error: network - Network unreachable
+[2019.12.12 16:07:41] HTTP Error: network error 99 - Network unreachable
+[2019.12.12 16:07:41] TCP Error: socket connection refused - Connection refused
+[2019.12.12 16:07:41] HTTP Error: connection refused - Connection refused
+[2019.12.12 16:07:41] Export Info: Destroy top bar by controller removal.
+[2019.12.12 16:07:41] Tray Icon: Using Qt tray icon, available: [TRUE]
+[2019.12.12 16:07:41] Not using Unity Launcher count.
+[2019.12.12 19:08:05] TCP Error: network - Network unreachable
+[2019.12.12 19:08:05] HTTP Error: network error 99 - Network unreachable
+[2019.12.12 19:08:05] TCP Error: socket connection refused - Connection refused
+[2019.12.12 19:08:05] HTTP Error: connection refused - Connection refused
+[2019.12.12 19:08:05] Message Info: bad message notification received (error_code 33) for msg_id = 6769585231465607448, seq_no = 52
+[2019.12.12 19:16:07] TCP Error: network - Network unreachable
+[2019.12.12 19:16:07] HTTP Error: network error 99 - Network unreachable
+[2019.12.12 19:16:07] TCP Error: socket connection refused - Connection refused
+[2019.12.12 19:16:07] HTTP Error: connection refused - Connection refused

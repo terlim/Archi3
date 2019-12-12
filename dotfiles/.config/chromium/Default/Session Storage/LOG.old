@@ -1,0 +1,6 @@
+2019/12/11-22:12:55.282 360 Reusing MANIFEST Session Storage/MANIFEST-000001
+2019/12/11-22:12:55.288 360 Recovering log #4
+2019/12/11-22:12:55.359 360 Reusing old log Session Storage/000004.log 
+2019/12/11-22:12:59.472 363 Level-0 table #8: started
+2019/12/11-22:12:59.561 363 Level-0 table #8: 17092 bytes OK
+2019/12/11-22:12:59.699 363 Delete type=0 #4

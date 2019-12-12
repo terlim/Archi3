@@ -1,0 +1,51 @@
+{
+  "lastUpgradeScriptRun": "v6.1.0",
+  "lastVersion": "6.3.1",
+  "lastReleaseNotesDisplayed": "6.3.1",
+  "appId": "76ead1fa036127024e25be941c6b7332c0f54254",
+  "windowSettings": {
+    "x": 0,
+    "y": 27,
+    "width": 1920,
+    "height": 1053,
+    "fullScreen": false,
+    "maximized": false
+  },
+  "registration": {
+    "email": "terlim@yandex.ru",
+    "name": "terlim",
+    "status": "activated",
+    "loginType": "github",
+    "providerToken": {
+      "access_token": "335a0078dd1dfee63669e646c79e63420838c349",
+      "token_type": "bearer",
+      "scope": "admin:public_key,repo,user:email,workflow",
+      "expires_at": null
+    },
+    "date": "2019-12-08T16:52:40.317Z",
+    "EULA": {
+      "version": "1.5.0",
+      "status": "agree_verified"
+    }
+  },
+  "userId": "ce32d748-b6de-4169-8f02-d863b52daf58",
+  "licensedFeatures": [
+    "individual",
+    "version6LegacyTrial"
+  ],
+  "userFeatures": [
+    {
+      "betaFeaturesEnabled": false,
+      "name": "gitkraken"
+    },
+    {
+      "betaFeaturesEnabled": false,
+      "name": "glo"
+    },
+    {
+      "betaFeaturesEnabled": false,
+      "name": "timelines"
+    }
+  ],
+  "hasSeenNewUserOnboarding": true
+}

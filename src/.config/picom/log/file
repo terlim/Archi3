@@ -1,9 +1,0 @@
-[ 08.12.2019 14:27:00.555 win_mark_client ERROR ] Failed to get client window attributes
-[ 08.12.2019 14:31:01.231 win_mark_client ERROR ] Failed to get client window attributes
-[ 08.12.2019 14:51:51.915 x_create_picture_with_pictfmt_and_pixmap ERROR ] failed to create picture
-[ 08.12.2019 15:10:16.605 x_fetch_region ERROR ] Failed to fetch rectangles
-[ 08.12.2019 15:51:29.695 x_create_picture_with_pictfmt_and_pixmap ERROR ] failed to create picture
-[ 08.12.2019 15:51:29.695 paint_one ERROR ] Window 0x00800087 is missing painting data.
-[ 08.12.2019 16:28:30.293 map_win ERROR ] Failed to get the geometry of window 0x03000202
-[ 08.12.2019 16:28:30.293 unmap_win WARN ] Unmapping an already unmapped window 0x03000202 (null) twice
-[ 08.12.2019 19:19:13.036 x_fetch_region ERROR ] Failed to fetch rectangles

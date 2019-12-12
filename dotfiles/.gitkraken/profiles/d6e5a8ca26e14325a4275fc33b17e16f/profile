@@ -1,0 +1,17 @@
+{
+  "tabInfo": {
+    "tabs": [
+      {
+        "id": "bd6efed2-48d1-4e38-abf6-753544775289",
+        "type": "REPO",
+        "repoName": "Archi3",
+        "repoPath": "/home/terlim/WorkProjects/Archi3/"
+      }
+    ],
+    "selectedTabId": "bd6efed2-48d1-4e38-abf6-753544775289"
+  },
+  "profileIcon": "Keif.png",
+  "profileName": "terlim",
+  "userEmail": "terlim@yandex.ru",
+  "userName": "terlim"
+}

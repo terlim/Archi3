@@ -1,6 +1,0 @@
-2019/12/08-19:21:21.768 2ebb Reusing MANIFEST /home/terlim/.config/chromium/Default/Sync Data/LevelDB/MANIFEST-000001
-2019/12/08-19:21:21.768 2ebb Recovering log #22
-2019/12/08-19:21:21.769 2ebb Reusing old log /home/terlim/.config/chromium/Default/Sync Data/LevelDB/000022.log 
-2019/12/08-19:21:25.703 30a2 Level-0 table #26: started
-2019/12/08-19:21:25.710 30a2 Level-0 table #26: 112517 bytes OK
-2019/12/08-19:21:25.719 30a2 Delete type=0 #22

@@ -1,0 +1,21 @@
+2019/12/12-19:08:51.529 381 Reusing MANIFEST /home/terlim/.config/chromium/Default/Sync Data/LevelDB/MANIFEST-000001
+2019/12/12-19:08:51.534 381 Recovering log #63
+2019/12/12-19:08:51.547 381 Reusing old log /home/terlim/.config/chromium/Default/Sync Data/LevelDB/000063.log 
+2019/12/12-19:28:23.022 57c Level-0 table #67: started
+2019/12/12-19:28:23.031 57c Level-0 table #67: 139856 bytes OK
+2019/12/12-19:28:23.037 57c Delete type=0 #63
+2019/12/12-20:00:46.380 57c Level-0 table #69: started
+2019/12/12-20:00:46.389 57c Level-0 table #69: 111764 bytes OK
+2019/12/12-20:00:46.397 57c Delete type=0 #66
+2019/12/12-20:15:05.968 57c Level-0 table #71: started
+2019/12/12-20:15:05.974 57c Level-0 table #71: 104945 bytes OK
+2019/12/12-20:15:05.979 57c Delete type=0 #68
+2019/12/12-20:15:05.979 57c Compacting 4@0 + 1@1 files
+2019/12/12-20:15:05.996 57c Generated table #72@0: 6148 keys, 425071 bytes
+2019/12/12-20:15:05.996 57c Compacted 4@0 + 1@1 files => 425071 bytes
+2019/12/12-20:15:06.000 57c compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/12/12-20:15:06.000 57c Delete type=2 #69
+2019/12/12-20:15:06.000 57c Delete type=2 #67
+2019/12/12-20:15:06.000 57c Delete type=2 #62
+2019/12/12-20:15:06.001 57c Delete type=2 #71
+2019/12/12-20:15:06.001 57c Delete type=2 #64

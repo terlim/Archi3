@@ -1,0 +1,331 @@
+[    21.212] (WW) Failed to open protocol names file lib/xorg/protocol.txt
+[    21.212] 
+X.Org X Server 1.20.6
+X Protocol Version 11, Revision 0
+[    21.212] Build Operating System: Linux Arch Linux
+[    21.212] Current Operating System: Linux Arch-PC 5.4.2-arch1-1 #1 SMP PREEMPT Thu, 05 Dec 2019 12:29:40 +0000 x86_64
+[    21.213] Kernel command line: BOOT_IMAGE=/vmlinuz-linux root=UUID=dd600103-4695-4f98-8f07-976975e8a554 rw loglevel=3 quiet
+[    21.213] Build Date: 23 November 2019  06:54:33AM
+[    21.213]  
+[    21.213] Current version of pixman: 0.38.4
+[    21.213] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[    21.213] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[    21.213] (==) Log file: "/home/terlim/.local/share/xorg/Xorg.0.log", Time: Sat Dec  7 19:20:17 2019
+[    21.216] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[    21.217] (==) No Layout section.  Using the first Screen section.
+[    21.217] (==) No screen section available. Using defaults.
+[    21.217] (**) |-->Screen "Default Screen Section" (0)
+[    21.217] (**) |   |-->Monitor "<default monitor>"
+[    21.218] (==) No monitor specified for screen "Default Screen Section".
+	Using a default monitor configuration.
+[    21.218] (==) Automatically adding devices
+[    21.218] (==) Automatically enabling devices
+[    21.218] (==) Automatically adding GPU devices
+[    21.218] (==) Automatically binding GPU devices
+[    21.218] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[    21.225] (==) FontPath set to:
+	/usr/share/fonts/misc,
+	/usr/share/fonts/TTF,
+	/usr/share/fonts/OTF,
+	/usr/share/fonts/Type1,
+	/usr/share/fonts/100dpi,
+	/usr/share/fonts/75dpi
+[    21.225] (==) ModulePath set to "/usr/lib/xorg/modules"
+[    21.226] (II) The server relies on udev to provide the list of input devices.
+	If no devices become available, reconfigure udev or disable AutoAddDevices.
+[    21.226] (II) Module ABI versions:
+[    21.226] 	X.Org ANSI C Emulation: 0.4
+[    21.226] 	X.Org Video Driver: 24.0
+[    21.226] 	X.Org XInput driver : 24.1
+[    21.226] 	X.Org Server Extension : 10.0
+[    21.227] (++) using VT number 1
+
+[    21.230] (II) systemd-logind: took control of session /org/freedesktop/login1/session/_31
+[    21.232] (II) xfree86: Adding drm device (/dev/dri/card0)
+[    21.233] (EE) systemd-logind: failed to take device /dev/dri/card0: Operation not permitted
+[    21.245] (--) PCI:*(1@0:0:0) 10de:17c8:1043:8565 rev 161, Mem @ 0xfa000000/16777216, 0xc0000000/268435456, 0xd0000000/33554432, I/O @ 0x0000e000/128, BIOS @ 0x????????/131072
+[    21.245] (WW) Open ACPI failed (/var/run/acpid.socket) (No such file or directory)
+[    21.245] (II) LoadModule: "glx"
+[    21.247] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+[    21.258] (II) Module glx: vendor="X.Org Foundation"
+[    21.258] 	compiled for 1.20.6, module version = 1.0.0
+[    21.258] 	ABI class: X.Org Server Extension, version 10.0
+[    21.258] (==) Matched nouveau as autoconfigured driver 0
+[    21.258] (==) Matched nv as autoconfigured driver 1
+[    21.258] (==) Matched modesetting as autoconfigured driver 2
+[    21.258] (==) Matched fbdev as autoconfigured driver 3
+[    21.258] (==) Matched vesa as autoconfigured driver 4
+[    21.258] (==) Assigned the driver to the xf86ConfigLayout
+[    21.258] (II) LoadModule: "nouveau"
+[    21.258] (WW) Warning, couldn't open module nouveau
+[    21.258] (EE) Failed to load module "nouveau" (module does not exist, 0)
+[    21.258] (II) LoadModule: "nv"
+[    21.259] (WW) Warning, couldn't open module nv
+[    21.259] (EE) Failed to load module "nv" (module does not exist, 0)
+[    21.259] (II) LoadModule: "modesetting"
+[    21.259] (II) Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+[    21.262] (II) Module modesetting: vendor="X.Org Foundation"
+[    21.262] 	compiled for 1.20.6, module version = 1.20.6
+[    21.262] 	Module class: X.Org Video Driver
+[    21.262] 	ABI class: X.Org Video Driver, version 24.0
+[    21.262] (II) LoadModule: "fbdev"
+[    21.262] (WW) Warning, couldn't open module fbdev
+[    21.262] (EE) Failed to load module "fbdev" (module does not exist, 0)
+[    21.262] (II) LoadModule: "vesa"
+[    21.263] (WW) Warning, couldn't open module vesa
+[    21.263] (EE) Failed to load module "vesa" (module does not exist, 0)
+[    21.263] (II) modesetting: Driver for Modesetting Kernel Drivers: kms
+[    21.263] (II) modeset(0): using drv /dev/dri/card0
+[    21.263] (WW) VGA arbiter: cannot open kernel arbiter, no multi-card support
+[    21.263] (II) modeset(0): Creating default Display subsection in Screen section
+	"Default Screen Section" for depth/fbbpp 24/32
+[    21.263] (==) modeset(0): Depth 24, (==) framebuffer bpp 32
+[    21.263] (==) modeset(0): RGB weight 888
+[    21.263] (==) modeset(0): Default visual is TrueColor
+[    21.263] (II) Loading sub module "glamoregl"
+[    21.263] (II) LoadModule: "glamoregl"
+[    21.263] (II) Loading /usr/lib/xorg/modules/libglamoregl.so
+[    21.273] (II) Module glamoregl: vendor="X.Org Foundation"
+[    21.273] 	compiled for 1.20.6, module version = 1.0.1
+[    21.273] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[    21.572] (II) modeset(0): glamor X acceleration enabled on NV120
+[    21.572] (II) modeset(0): glamor initialized
+[    21.584] (II) modeset(0): Output DVI-I-1 has no monitor section
+[    21.635] (II) modeset(0): Output DP-1 has no monitor section
+[    21.689] (II) modeset(0): Output DP-2 has no monitor section
+[    21.754] (II) modeset(0): Output HDMI-1 has no monitor section
+[    21.805] (II) modeset(0): Output DP-3 has no monitor section
+[    21.818] (II) modeset(0): EDID for output DVI-I-1
+[    21.869] (II) modeset(0): EDID for output DP-1
+[    21.922] (II) modeset(0): EDID for output DP-2
+[    21.987] (II) modeset(0): EDID for output HDMI-1
+[    21.987] (II) modeset(0): Manufacturer: SAM  Model: 8d8  Serial#: 842216499
+[    21.987] (II) modeset(0): Year: 2012  Week: 52
+[    21.987] (II) modeset(0): EDID Version: 1.3
+[    21.987] (II) modeset(0): Digital Display Input
+[    21.987] (II) modeset(0): Max Image Size [cm]: horiz.: 52  vert.: 29
+[    21.987] (II) modeset(0): Gamma: 2.20
+[    21.987] (II) modeset(0): DPMS capabilities: Off
+[    21.987] (II) modeset(0): Supported color encodings: RGB 4:4:4 YCrCb 4:4:4 
+[    21.987] (II) modeset(0): First detailed timing is preferred mode
+[    21.987] (II) modeset(0): redX: 0.642 redY: 0.339   greenX: 0.315 greenY: 0.630
+[    21.987] (II) modeset(0): blueX: 0.159 blueY: 0.060   whiteX: 0.312 whiteY: 0.329
+[    21.987] (II) modeset(0): Supported established timings:
+[    21.987] (II) modeset(0): 720x400@70Hz
+[    21.987] (II) modeset(0): 640x480@60Hz
+[    21.987] (II) modeset(0): 640x480@67Hz
+[    21.987] (II) modeset(0): 640x480@72Hz
+[    21.987] (II) modeset(0): 640x480@75Hz
+[    21.987] (II) modeset(0): 800x600@56Hz
+[    21.987] (II) modeset(0): 800x600@60Hz
+[    21.987] (II) modeset(0): 800x600@72Hz
+[    21.987] (II) modeset(0): 800x600@75Hz
+[    21.988] (II) modeset(0): 832x624@75Hz
+[    21.988] (II) modeset(0): 1024x768@60Hz
+[    21.988] (II) modeset(0): 1024x768@70Hz
+[    21.988] (II) modeset(0): 1024x768@75Hz
+[    21.988] (II) modeset(0): 1280x1024@75Hz
+[    21.988] (II) modeset(0): 1152x864@75Hz
+[    21.988] (II) modeset(0): Manufacturer's mask: 0
+[    21.988] (II) modeset(0): Supported standard timings:
+[    21.988] (II) modeset(0): #0: hsize: 1152  vsize 864  refresh: 75  vid: 20337
+[    21.988] (II) modeset(0): #1: hsize: 1280  vsize 720  refresh: 60  vid: 49281
+[    21.988] (II) modeset(0): #2: hsize: 1280  vsize 800  refresh: 60  vid: 129
+[    21.988] (II) modeset(0): #3: hsize: 1280  vsize 1024  refresh: 60  vid: 32897
+[    21.988] (II) modeset(0): #4: hsize: 1440  vsize 900  refresh: 60  vid: 149
+[    21.988] (II) modeset(0): #5: hsize: 1600  vsize 900  refresh: 60  vid: 49321
+[    21.988] (II) modeset(0): #6: hsize: 1680  vsize 1050  refresh: 60  vid: 179
+[    21.988] (II) modeset(0): Supported detailed timing:
+[    21.988] (II) modeset(0): clock: 148.5 MHz   Image Size:  521 x 293 mm
+[    21.988] (II) modeset(0): h_active: 1920  h_sync: 2008  h_sync_end 2052 h_blank_end 2200 h_border: 0
+[    21.988] (II) modeset(0): v_active: 1080  v_sync: 1084  v_sync_end 1089 v_blanking: 1125 v_border: 0
+[    21.988] (II) modeset(0): Supported detailed timing:
+[    21.988] (II) modeset(0): clock: 74.2 MHz   Image Size:  521 x 293 mm
+[    21.988] (II) modeset(0): h_active: 1280  h_sync: 1390  h_sync_end 1430 h_blank_end 1650 h_border: 0
+[    21.988] (II) modeset(0): v_active: 720  v_sync: 725  v_sync_end 730 v_blanking: 750 v_border: 0
+[    21.988] (II) modeset(0): Ranges: V min: 50 V max: 75 Hz, H min: 30 H max: 81 kHz, PixClock max 175 MHz
+[    21.988] (II) modeset(0): Monitor name: S24B350
+[    21.988] (II) modeset(0): Supported detailed timing:
+[    21.988] (II) modeset(0): clock: 74.2 MHz   Image Size:  521 x 293 mm
+[    21.988] (II) modeset(0): h_active: 1280  h_sync: 1720  h_sync_end 1760 h_blank_end 1980 h_border: 0
+[    21.988] (II) modeset(0): v_active: 720  v_sync: 725  v_sync_end 730 v_blanking: 750 v_border: 0
+[    21.988] (II) modeset(0): Supported detailed timing:
+[    21.988] (II) modeset(0): clock: 27.0 MHz   Image Size:  521 x 293 mm
+[    21.988] (II) modeset(0): h_active: 720  h_sync: 732  h_sync_end 796 h_blank_end 864 h_border: 0
+[    21.988] (II) modeset(0): v_active: 576  v_sync: 581  v_sync_end 586 v_blanking: 625 v_border: 0
+[    21.988] (II) modeset(0): Supported detailed timing:
+[    21.988] (II) modeset(0): clock: 27.0 MHz   Image Size:  521 x 293 mm
+[    21.988] (II) modeset(0): h_active: 720  h_sync: 736  h_sync_end 798 h_blank_end 858 h_border: 0
+[    21.988] (II) modeset(0): v_active: 480  v_sync: 489  v_sync_end 495 v_blanking: 525 v_border: 0
+[    21.988] (II) modeset(0): Number of EDID sections to follow: 1
+[    21.988] (II) modeset(0): EDID (in hex):
+[    21.988] (II) modeset(0): 	00ffffffffffff004c2dd80833343332
+[    21.988] (II) modeset(0): 	3416010380341d782a7dd1a45650a128
+[    21.988] (II) modeset(0): 	0f5054bfef80714f81c0810081809500
+[    21.988] (II) modeset(0): 	a9c0b3000101023a801871382d40582c
+[    21.988] (II) modeset(0): 	450009252100001e011d007251d01e20
+[    21.988] (II) modeset(0): 	6e28550009252100001e000000fd0032
+[    21.988] (II) modeset(0): 	4b1e5111000a202020202020000000fc
+[    21.988] (II) modeset(0): 	00533234423335300a20202020200143
+[    21.988] (II) modeset(0): 	020311b14690041f13120365030c0010
+[    21.988] (II) modeset(0): 	00011d00bc52d01e20b8285540092521
+[    21.988] (II) modeset(0): 	00001e8c0ad090204031200c40550009
+[    21.988] (II) modeset(0): 	25210000188c0ad08a20e02d10103e96
+[    21.988] (II) modeset(0): 	00092521000018000000000000000000
+[    21.988] (II) modeset(0): 	00000000000000000000000000000000
+[    21.988] (II) modeset(0): 	00000000000000000000000000000000
+[    21.988] (II) modeset(0): 	00000000000000000000000000000051
+[    21.988] (II) modeset(0): Not using default mode "1440x810" (bad mode clock/interlace/doublescan)
+[    21.988] (II) modeset(0): Not using default mode "1600x900" (bad mode clock/interlace/doublescan)
+[    21.988] (II) modeset(0): Not using default mode "1600x900" (bad mode clock/interlace/doublescan)
+[    21.988] (II) modeset(0): Not using default mode "1920x1080" (bad mode clock/interlace/doublescan)
+[    21.988] (II) modeset(0): Printing probed modes for output HDMI-1
+[    21.988] (II) modeset(0): Modeline "1920x1080"x60.0  148.50  1920 2008 2052 2200  1080 1084 1089 1125 +hsync +vsync (67.5 kHz eP)
+[    21.988] (II) modeset(0): Modeline "1920x1080"x60.0  173.00  1920 2048 2248 2576  1080 1083 1088 1120 -hsync +vsync (67.2 kHz d)
+[    21.988] (II) modeset(0): Modeline "1920x1080"x50.0  148.50  1920 2448 2492 2640  1080 1084 1089 1125 +hsync +vsync (56.2 kHz e)
+[    21.988] (II) modeset(0): Modeline "1920x1080"x59.9  148.35  1920 2008 2052 2200  1080 1084 1089 1125 +hsync +vsync (67.4 kHz e)
+[    21.988] (II) modeset(0): Modeline "1920x1080"x59.9  138.50  1920 1968 2000 2080  1080 1083 1088 1111 +hsync -vsync (66.6 kHz d)
+[    21.988] (II) modeset(0): Modeline "1680x1050"x60.0  146.25  1680 1784 1960 2240  1050 1053 1059 1089 -hsync +vsync (65.3 kHz d)
+[    21.988] (II) modeset(0): Modeline "1680x1050"x59.9  119.00  1680 1728 1760 1840  1050 1053 1059 1080 +hsync -vsync (64.7 kHz e)
+[    21.988] (II) modeset(0): Modeline "1400x1050"x74.8  155.80  1400 1464 1784 1912  1050 1052 1064 1090 +hsync +vsync (81.5 kHz d)
+[    21.988] (II) modeset(0): Modeline "1400x1050"x60.0  122.00  1400 1488 1640 1880  1050 1052 1064 1082 +hsync +vsync (64.9 kHz d)
+[    21.988] (II) modeset(0): Modeline "1600x900"x59.9  118.25  1600 1696 1856 2112  900 903 908 934 -hsync +vsync (56.0 kHz d)
+[    21.988] (II) modeset(0): Modeline "1600x900"x60.0  108.00  1600 1624 1704 1800  900 901 904 1000 +hsync +vsync (60.0 kHz e)
+[    21.988] (II) modeset(0): Modeline "1600x900"x59.8   97.50  1600 1648 1680 1760  900 903 908 926 +hsync -vsync (55.4 kHz d)
+[    21.988] (II) modeset(0): Modeline "1280x1024"x75.0  135.00  1280 1296 1440 1688  1024 1025 1028 1066 +hsync +vsync (80.0 kHz e)
+[    21.988] (II) modeset(0): Modeline "1280x1024"x60.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz e)
+[    21.988] (II) modeset(0): Modeline "1440x900"x59.9   88.75  1440 1488 1520 1600  900 903 909 926 +hsync -vsync (55.5 kHz e)
+[    21.988] (II) modeset(0): Modeline "1400x900"x60.0  103.50  1400 1480 1624 1848  900 903 913 934 -hsync +vsync (56.0 kHz d)
+[    21.988] (II) modeset(0): Modeline "1400x900"x59.9   86.50  1400 1448 1480 1560  900 903 913 926 +hsync -vsync (55.4 kHz d)
+[    21.988] (II) modeset(0): Modeline "1280x960"x60.0  108.00  1280 1376 1488 1800  960 961 964 1000 +hsync +vsync (60.0 kHz d)
+[    21.988] (II) modeset(0): Modeline "1440x810"x60.0  151.88  1440 1464 1480 1520  810 811 814 833 doublescan +hsync -vsync (99.9 kHz d)
+[    21.988] (II) modeset(0): Modeline "1368x768"x59.9   85.25  1368 1440 1576 1784  768 771 781 798 -hsync +vsync (47.8 kHz d)
+[    21.988] (II) modeset(0): Modeline "1368x768"x59.9   72.25  1368 1416 1448 1528  768 771 781 790 +hsync -vsync (47.3 kHz d)
+[    21.988] (II) modeset(0): Modeline "1280x800"x60.0  174.25  1280 1380 1516 1752  800 801 804 829 doublescan -hsync +vsync (99.5 kHz d)
+[    21.988] (II) modeset(0): Modeline "1280x800"x60.0  134.25  1280 1304 1320 1360  800 801 804 823 doublescan +hsync -vsync (98.7 kHz d)
+[    21.988] (II) modeset(0): Modeline "1280x800"x59.8   83.50  1280 1352 1480 1680  800 803 809 831 -hsync +vsync (49.7 kHz d)
+[    21.988] (II) modeset(0): Modeline "1280x800"x59.9   71.00  1280 1328 1360 1440  800 803 809 823 +hsync -vsync (49.3 kHz e)
+[    21.988] (II) modeset(0): Modeline "1152x864"x75.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz e)
+[    21.988] (II) modeset(0): Modeline "1280x720"x60.0  156.12  1280 1376 1512 1744  720 721 724 746 doublescan -hsync +vsync (89.5 kHz d)
+[    21.988] (II) modeset(0): Modeline "1280x720"x60.0  120.75  1280 1304 1320 1360  720 721 724 740 doublescan +hsync -vsync (88.8 kHz d)
+[    21.989] (II) modeset(0): Modeline "1280x720"x59.9   74.50  1280 1344 1472 1664  720 723 728 748 -hsync +vsync (44.8 kHz d)
+[    21.989] (II) modeset(0): Modeline "1280x720"x60.0   74.25  1280 1390 1430 1650  720 725 730 750 +hsync +vsync (45.0 kHz e)
+[    21.989] (II) modeset(0): Modeline "1280x720"x50.0   74.25  1280 1720 1760 1980  720 725 730 750 +hsync +vsync (37.5 kHz e)
+[    21.989] (II) modeset(0): Modeline "1280x720"x59.9   74.18  1280 1390 1430 1650  720 725 730 750 +hsync +vsync (45.0 kHz e)
+[    21.989] (II) modeset(0): Modeline "1280x720"x59.7   63.75  1280 1328 1360 1440  720 723 728 741 +hsync -vsync (44.3 kHz d)
+[    21.989] (II) modeset(0): Modeline "1024x768"x75.0  170.24  1024 1108 1220 1416  768 768 770 801 doublescan -hsync +vsync (120.2 kHz d)
+[    21.989] (II) modeset(0): Modeline "1024x768"x60.0  133.47  1024 1100 1212 1400  768 768 770 794 doublescan -hsync +vsync (95.3 kHz d)
+[    21.989] (II) modeset(0): Modeline "1024x768"x75.0   78.75  1024 1040 1136 1312  768 769 772 800 +hsync +vsync (60.0 kHz e)
+[    21.989] (II) modeset(0): Modeline "1024x768"x70.1   75.00  1024 1048 1184 1328  768 771 777 806 -hsync -vsync (56.5 kHz e)
+[    21.989] (II) modeset(0): Modeline "1024x768"x60.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[    21.989] (II) modeset(0): Modeline "960x720"x75.0  148.50  960 1032 1144 1320  720 720 722 750 doublescan -hsync +vsync (112.5 kHz d)
+[    21.989] (II) modeset(0): Modeline "960x720"x60.0  117.00  960 1024 1128 1300  720 720 722 750 doublescan -hsync +vsync (90.0 kHz d)
+[    21.989] (II) modeset(0): Modeline "928x696"x75.0  144.00  928 992 1104 1280  696 696 698 750 doublescan -hsync +vsync (112.5 kHz d)
+[    21.989] (II) modeset(0): Modeline "928x696"x60.1  109.15  928 976 1088 1264  696 696 698 719 doublescan -hsync +vsync (86.4 kHz d)
+[    21.989] (II) modeset(0): Modeline "896x672"x75.0  130.50  896 944 1052 1228  672 672 674 708 doublescan -hsync +vsync (106.3 kHz d)
+[    21.989] (II) modeset(0): Modeline "896x672"x60.0  102.40  896 960 1060 1224  672 672 674 697 doublescan -hsync +vsync (83.7 kHz d)
+[    21.989] (II) modeset(0): Modeline "1024x576"x60.0   98.50  1024 1092 1200 1376  576 577 580 597 doublescan -hsync +vsync (71.6 kHz d)
+[    21.989] (II) modeset(0): Modeline "1024x576"x60.0   78.38  1024 1048 1064 1104  576 577 580 592 doublescan +hsync -vsync (71.0 kHz d)
+[    21.989] (II) modeset(0): Modeline "1024x576"x59.9   46.50  1024 1064 1160 1296  576 579 584 599 -hsync +vsync (35.9 kHz d)
+[    21.989] (II) modeset(0): Modeline "1024x576"x59.8   42.00  1024 1072 1104 1184  576 579 584 593 +hsync -vsync (35.5 kHz d)
+[    21.989] (II) modeset(0): Modeline "960x600"x59.9   96.62  960 1028 1128 1296  600 601 604 622 doublescan -hsync +vsync (74.6 kHz d)
+[    21.989] (II) modeset(0): Modeline "960x600"x60.0   77.00  960 984 1000 1040  600 601 604 617 doublescan +hsync -vsync (74.0 kHz d)
+[    21.989] (II) modeset(0): Modeline "832x624"x74.6   57.28  832 864 928 1152  624 625 628 667 -hsync -vsync (49.7 kHz e)
+[    21.989] (II) modeset(0): Modeline "960x540"x60.0   86.50  960 1024 1124 1288  540 541 544 560 doublescan -hsync +vsync (67.2 kHz d)
+[    21.989] (II) modeset(0): Modeline "960x540"x60.0   69.25  960 984 1000 1040  540 541 544 555 doublescan +hsync -vsync (66.6 kHz d)
+[    21.989] (II) modeset(0): Modeline "960x540"x59.6   40.75  960 992 1088 1216  540 543 548 562 -hsync +vsync (33.5 kHz d)
+[    21.989] (II) modeset(0): Modeline "960x540"x59.8   37.25  960 1008 1040 1120  540 543 548 556 +hsync -vsync (33.3 kHz d)
+[    21.989] (II) modeset(0): Modeline "800x600"x75.0  101.25  800 832 928 1080  600 600 602 625 doublescan +hsync +vsync (93.8 kHz d)
+[    21.989] (II) modeset(0): Modeline "800x600"x70.0   94.50  800 832 928 1080  600 600 602 625 doublescan +hsync +vsync (87.5 kHz d)
+[    21.989] (II) modeset(0): Modeline "800x600"x65.0   87.75  800 832 928 1080  600 600 602 625 doublescan +hsync +vsync (81.2 kHz d)
+[    21.989] (II) modeset(0): Modeline "800x600"x60.0   81.00  800 832 928 1080  600 600 602 625 doublescan +hsync +vsync (75.0 kHz d)
+[    21.989] (II) modeset(0): Modeline "800x600"x72.2   50.00  800 856 976 1040  600 637 643 666 +hsync +vsync (48.1 kHz e)
+[    21.989] (II) modeset(0): Modeline "800x600"x75.0   49.50  800 816 896 1056  600 601 604 625 +hsync +vsync (46.9 kHz e)
+[    21.989] (II) modeset(0): Modeline "800x600"x60.3   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[    21.989] (II) modeset(0): Modeline "800x600"x56.2   36.00  800 824 896 1024  600 601 603 625 +hsync +vsync (35.2 kHz e)
+[    21.989] (II) modeset(0): Modeline "840x525"x60.0   73.12  840 892 980 1120  525 526 529 544 doublescan -hsync +vsync (65.3 kHz d)
+[    21.989] (II) modeset(0): Modeline "840x525"x59.9   59.50  840 864 880 920  525 526 529 540 doublescan +hsync -vsync (64.7 kHz d)
+[    21.989] (II) modeset(0): Modeline "864x486"x59.9   32.50  864 888 968 1072  486 489 494 506 -hsync +vsync (30.3 kHz d)
+[    21.989] (II) modeset(0): Modeline "864x486"x59.6   30.50  864 912 944 1024  486 489 494 500 +hsync -vsync (29.8 kHz d)
+[    21.989] (II) modeset(0): Modeline "720x576"x50.0   27.00  720 732 796 864  576 581 586 625 -hsync -vsync (31.2 kHz e)
+[    21.989] (II) modeset(0): Modeline "700x525"x74.8   77.90  700 732 892 956  525 526 532 545 doublescan +hsync +vsync (81.5 kHz d)
+[    21.989] (II) modeset(0): Modeline "700x525"x60.0   61.00  700 744 820 940  525 526 532 541 doublescan +hsync +vsync (64.9 kHz d)
+[    21.989] (II) modeset(0): Modeline "800x450"x59.9   59.12  800 848 928 1056  450 451 454 467 doublescan -hsync +vsync (56.0 kHz d)
+[    21.989] (II) modeset(0): Modeline "800x450"x59.8   48.75  800 824 840 880  450 451 454 463 doublescan +hsync -vsync (55.4 kHz d)
+[    21.989] (II) modeset(0): Modeline "720x480"x60.0   27.03  720 736 798 858  480 489 495 525 -hsync -vsync (31.5 kHz e)
+[    21.989] (II) modeset(0): Modeline "720x480"x59.9   27.00  720 736 798 858  480 489 495 525 -hsync -vsync (31.5 kHz e)
+[    21.989] (II) modeset(0): Modeline "640x512"x75.0   67.50  640 648 720 844  512 512 514 533 doublescan +hsync +vsync (80.0 kHz d)
+[    21.989] (II) modeset(0): Modeline "640x512"x60.0   54.00  640 664 720 844  512 512 514 533 doublescan +hsync +vsync (64.0 kHz d)
+[    21.989] (II) modeset(0): Modeline "700x450"x60.0   51.75  700 740 812 924  450 451 456 467 doublescan -hsync +vsync (56.0 kHz d)
+[    21.989] (II) modeset(0): Modeline "700x450"x59.9   43.25  700 724 740 780  450 451 456 463 doublescan +hsync -vsync (55.4 kHz d)
+[    21.989] (II) modeset(0): Modeline "640x480"x60.0   54.00  640 688 744 900  480 480 482 500 doublescan +hsync +vsync (60.0 kHz d)
+[    21.989] (II) modeset(0): Modeline "640x480"x75.0   31.50  640 656 720 840  480 481 484 500 -hsync -vsync (37.5 kHz e)
+[    21.989] (II) modeset(0): Modeline "640x480"x72.8   31.50  640 664 704 832  480 489 492 520 -hsync -vsync (37.9 kHz e)
+[    21.989] (II) modeset(0): Modeline "640x480"x75.0   31.50  640 656 720 840  480 481 484 500 -hsync -vsync (37.5 kHz d)
+[    21.989] (II) modeset(0): Modeline "640x480"x66.7   30.24  640 704 768 864  480 483 486 525 -hsync -vsync (35.0 kHz e)
+[    21.989] (II) modeset(0): Modeline "640x480"x60.0   25.20  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[    21.989] (II) modeset(0): Modeline "640x480"x59.9   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[    21.989] (II) modeset(0): Modeline "720x405"x59.5   22.50  720 744 808 896  405 408 413 422 -hsync +vsync (25.1 kHz d)
+[    21.989] (II) modeset(0): Modeline "720x405"x59.0   21.75  720 768 800 880  405 408 413 419 +hsync -vsync (24.7 kHz d)
+[    21.989] (II) modeset(0): Modeline "720x400"x70.1   28.32  720 738 846 900  400 412 414 449 -hsync +vsync (31.5 kHz e)
+[    21.989] (II) modeset(0): Modeline "684x384"x59.9   42.62  684 720 788 892  384 385 390 399 doublescan -hsync +vsync (47.8 kHz d)
+[    21.989] (II) modeset(0): Modeline "684x384"x59.9   36.12  684 708 724 764  384 385 390 395 doublescan +hsync -vsync (47.3 kHz d)
+[    21.989] (II) modeset(0): Modeline "640x400"x59.9   41.75  640 676 740 840  400 401 404 415 doublescan -hsync +vsync (49.7 kHz d)
+[    21.989] (II) modeset(0): Modeline "640x400"x60.0   35.50  640 664 680 720  400 401 404 411 doublescan +hsync -vsync (49.3 kHz d)
+[    21.989] (II) modeset(0): Modeline "576x432"x75.0   54.00  576 608 672 800  432 432 434 450 doublescan +hsync +vsync (67.5 kHz d)
+[    21.989] (II) modeset(0): Modeline "640x360"x59.9   37.25  640 672 736 832  360 361 364 374 doublescan -hsync +vsync (44.8 kHz d)
+[    21.989] (II) modeset(0): Modeline "640x360"x59.8   31.88  640 664 680 720  360 361 364 370 doublescan +hsync -vsync (44.3 kHz d)
+[    21.989] (II) modeset(0): Modeline "640x360"x59.8   18.00  640 664 720 800  360 363 368 376 -hsync +vsync (22.5 kHz d)
+[    21.989] (II) modeset(0): Modeline "640x360"x59.3   17.75  640 688 720 800  360 363 368 374 +hsync -vsync (22.2 kHz d)
+[    21.989] (II) modeset(0): Modeline "512x384"x75.0   39.38  512 520 568 656  384 384 386 400 doublescan +hsync +vsync (60.0 kHz d)
+[    21.989] (II) modeset(0): Modeline "512x384"x70.1   37.50  512 524 592 664  384 385 388 403 doublescan -hsync -vsync (56.5 kHz d)
+[    21.989] (II) modeset(0): Modeline "512x384"x60.0   32.50  512 524 592 672  384 385 388 403 doublescan -hsync -vsync (48.4 kHz d)
+[    21.989] (II) modeset(0): Modeline "512x288"x60.0   23.25  512 532 580 648  288 289 292 299 doublescan -hsync +vsync (35.9 kHz d)
+[    21.989] (II) modeset(0): Modeline "512x288"x59.9   21.00  512 536 552 592  288 289 292 296 doublescan +hsync -vsync (35.5 kHz d)
+[    21.989] (II) modeset(0): Modeline "416x312"x74.7   28.64  416 432 464 576  312 312 314 333 doublescan -hsync -vsync (49.7 kHz d)
+[    21.989] (II) modeset(0): Modeline "480x270"x59.6   20.38  480 496 544 608  270 271 274 281 doublescan -hsync +vsync (33.5 kHz d)
+[    21.989] (II) modeset(0): Modeline "480x270"x59.8   18.62  480 504 520 560  270 271 274 278 doublescan +hsync -vsync (33.3 kHz d)
+[    21.989] (II) modeset(0): Modeline "400x300"x72.2   25.00  400 428 488 520  300 318 321 333 doublescan +hsync +vsync (48.1 kHz d)
+[    21.989] (II) modeset(0): Modeline "400x300"x75.1   24.75  400 408 448 528  300 300 302 312 doublescan +hsync +vsync (46.9 kHz d)
+[    21.989] (II) modeset(0): Modeline "400x300"x60.3   20.00  400 420 484 528  300 300 302 314 doublescan +hsync +vsync (37.9 kHz d)
+[    21.989] (II) modeset(0): Modeline "400x300"x56.3   18.00  400 412 448 512  300 300 301 312 doublescan +hsync +vsync (35.2 kHz d)
+[    21.989] (II) modeset(0): Modeline "432x243"x59.9   16.25  432 444 484 536  243 244 247 253 doublescan -hsync +vsync (30.3 kHz d)
+[    21.989] (II) modeset(0): Modeline "432x243"x59.6   15.25  432 456 472 512  243 244 247 250 doublescan +hsync -vsync (29.8 kHz d)
+[    21.989] (II) modeset(0): Modeline "320x240"x72.8   15.75  320 332 352 416  240 244 246 260 doublescan -hsync -vsync (37.9 kHz d)
+[    21.989] (II) modeset(0): Modeline "320x240"x75.0   15.75  320 328 360 420  240 240 242 250 doublescan -hsync -vsync (37.5 kHz d)
+[    21.989] (II) modeset(0): Modeline "320x240"x60.1   12.59  320 328 376 400  240 245 246 262 doublescan -hsync -vsync (31.5 kHz d)
+[    21.989] (II) modeset(0): Modeline "360x202"x59.5   11.25  360 372 404 448  202 204 206 211 doublescan -hsync +vsync (25.1 kHz d)
+[    21.989] (II) modeset(0): Modeline "360x202"x59.1   10.88  360 384 400 440  202 204 206 209 doublescan +hsync -vsync (24.7 kHz d)
+[    21.989] (II) modeset(0): Modeline "320x180"x59.8    9.00  320 332 360 400  180 181 184 188 doublescan -hsync +vsync (22.5 kHz d)
+[    21.989] (II) modeset(0): Modeline "320x180"x59.3    8.88  320 344 360 400  180 181 184 187 doublescan +hsync -vsync (22.2 kHz d)
+[    22.042] (II) modeset(0): EDID for output DP-3
+[    22.042] (II) modeset(0): Output DVI-I-1 disconnected
+[    22.042] (II) modeset(0): Output DP-1 disconnected
+[    22.042] (II) modeset(0): Output DP-2 disconnected
+[    22.042] (II) modeset(0): Output HDMI-1 connected
+[    22.042] (II) modeset(0): Output DP-3 disconnected
+[    22.042] (II) modeset(0): Using exact sizes for initial modes
+[    22.042] (II) modeset(0): Output HDMI-1 using initial mode 1920x1080 +0+0
+[    22.042] (==) modeset(0): Using gamma correction (1.0, 1.0, 1.0)
+[    22.042] (==) modeset(0): DPI set to (96, 96)
+[    22.042] (II) Loading sub module "fb"
+[    22.042] (II) LoadModule: "fb"
+[    22.042] (II) Loading /usr/lib/xorg/modules/libfb.so
+[    22.043] (II) Module fb: vendor="X.Org Foundation"
+[    22.043] 	compiled for 1.20.6, module version = 1.0.0
+[    22.043] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[    22.043] (EE) modeset(0): drmSetMaster failed: Permission denied
+[    22.043] (EE) 
+Fatal server error:
+[    22.043] (EE) AddScreen/ScreenInit failed for driver 0
+[    22.043] (EE) 
+[    22.043] (EE) 
+Please consult the The X.Org Foundation support 
+	 at http://wiki.x.org
+ for help. 
+[    22.043] (EE) Please also check the log file at "/home/terlim/.local/share/xorg/Xorg.0.log" for additional information.
+[    22.043] (EE) 
+[    22.045] (EE) Server terminated with error (1). Closing log file.
