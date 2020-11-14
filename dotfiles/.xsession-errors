@@ -1,0 +1,13 @@
+
+(process:690): Telegram-WARNING **: 18:43:27.480: Unfortunately, GTK integration conflicts with qgtk2 platformtheme and style. Therefore, QT_QPA_PLATFORMTHEME and QT_STYLE_OVERRIDE will be unset.
+Telegram-Message: 18:43:27.482: This can be ignored by setting TDESKTOP_I_KNOW_ABOUT_GTK_INCOMPATIBILITY environment variable to any value, however, if qgtk2 theme or style is used, this will lead to a crash.
+Telegram-Message: 18:43:27.482: GTK integration can be disabled by setting TDESKTOP_DISABLE_GTK_INTEGRATION to any value. Keep in mind that this will lead to clipboard issues and tdesktop will be unable to get settings from GTK (such as decoration layout, dark mode & more).
+
+(process:690): Telegram-WARNING **: 18:43:27.483: Application was built without embedded fonts, this may lead to font issues.
+Telegram-Message: 18:43:27.851: You can disable tray icon counter with TDESKTOP_DISABLE_TRAY_COUNTER and make it look better if it is monochrome.
+[ALSOFT] (EE) Failed to set real-time priority for thread: Операция не позволена (1)
+polybar|warn:  pulseaudio: using default sink alsa_output.pci-0000_0a_01.0.analog-stereo
+polybar|error: tray: Failed to put tray above 0x1a00002 in the stack (XCB_MATCH (8))
+error: : cannot open
+error: : cannot open
+error: : cannot open

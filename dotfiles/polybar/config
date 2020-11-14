@@ -1,0 +1,203 @@
+;==========================================================
+;
+;
+;   ██████╗  ██████╗ ██╗  ██╗   ██╗██████╗  █████╗ ██████╗
+;   ██╔══██╗██╔═══██╗██║  ╚██╗ ██╔╝██╔══██╗██╔══██╗██╔══██╗
+;   ██████╔╝██║   ██║██║   ╚████╔╝ ██████╔╝███████║██████╔╝
+;   ██╔═══╝ ██║   ██║██║    ╚██╔╝  ██╔══██╗██╔══██║██╔══██╗
+;   ██║     ╚██████╔╝███████╗██║   ██████╔╝██║  ██║██║  ██║
+;   ╚═╝      ╚═════╝ ╚══════╝╚═╝   ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝
+;
+;
+;   To learn more about how to configure Polybar
+;   go to https://github.com/polybar/polybar
+;
+;   The README contains a lot of information
+;
+;==========================================================
+
+[global/wm]
+margin-top = 0
+margin-bottom = 0
+
+;;=========================================================
+;; File inclusion
+;; include an external file, like module file, etc.
+;;=========================================================
+
+include-file = ~/.config/polybar/modules/colors.ini
+include-file = ~/.config/polybar/modules/fonts.ini
+include-file = ~/.config/polybar/modules/module-i3.ini
+include-file = ~/.config/polybar/modules/module-cpu.ini
+include-file = ~/.config/polybar/modules/module-memory.ini
+include-file = ~/.config/polybar/modules/module-filesystem.ini
+include-file = ~/.config/polybar/modules/module-gpu.ini
+include-file = ~/.config/polybar/modules/module-rofi.ini
+include-file = ~/.config/polybar/modules/module-keyboard.ini
+include-file = ~/.config/polybar/modules/module-ethernet.ini
+include-file = ~/.config/polybar/modules/module-date.ini
+include-file = ~/.config/polybar/modules/module-powermenu.ini
+include-file = ~/.config/polybar/modules/module-spotify.ini
+include-file = ~/.config/polybar/modules/module-pacman.ini
+include-file = ~/.config/polybar/modules/module-usb-dev.ini
+
+[settings]
+pseudo-transparency = false 
+throttle-output = 5
+throttle-output-for = 10
+throttle-input-for = 30
+screenchange-reload = true
+compositing-background = over
+compositing-foreground = over
+compositing-overline = over
+compositing-underline = over
+compositing-border = over
+
+[bar/leftbar]
+monitor = ${env:MONITOR:}
+width = 100%
+height = 20
+offset-x = 0
+offset-y = 0
+radius = 0
+fixed-center = false
+background = ${colors.background}
+foreground = ${colors.foreground}
+line-size = 3 
+line-color = #f00
+border-size = 0
+border-bottom-size = 0
+padding-left = 0
+padding-right = 3
+module-margin-left = 1 
+module-margin-right = 1
+
+font-0 = ${fonts.font-0} 
+font-1 = ${fonts.font-1}
+font-2 = ${fonts.font-2}
+font-3 = ${fonts.font-3}
+
+modules-left = rofi i3
+modules-center =   
+modules-right = spotify
+
+enable-ipc = true
+cursor-click = pointer
+
+[bar/mainbar]
+separator = " | "
+monitor = ${env:MONITOR:}
+width = 100%
+height = 20
+offset-x = 0
+offset-y = 0
+radius = 0
+fixed-center = false
+
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+line-size = 0
+line-color = #f00
+
+border-size = 0
+border-bottom-size = 0
+
+padding-left = 0
+padding-right = 0
+
+module-margin-left = 1 
+module-margin-right = 1
+
+font-0 = ${fonts.font-0}
+font-1 = ${fonts.font-1}
+font-2 = ${fonts.font-2}
+font-3 = ${fonts.font-3}
+
+modules-left = rofi i3
+modules-center = 
+modules-right = system-usb-udev pacman filesystem-root filesystem-home memory cpu  ethup temperature gpu-temp xkeyboard pulseaudio date powermenu
+
+tray-position = right
+tray-padding = 2
+enable-ipc = true
+cursor-click = pointer
+
+
+[bar/example]
+monitor = ${env:MONITOR:}
+width = 100%
+height = 27
+offset-x = 0
+offset-y = 0
+radius = 0
+fixed-center = false
+
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+font-0 = ${fonts.font-0}
+font-1 = ${fonts.font-1}
+font-2 = ${fonts.font-2}
+
+line-size = 0
+line-color = #f00
+
+border-size = 0
+border-bottom-size = 0
+#border-color = #ff0000
+
+padding-left = 0
+padding-right = 0
+spacing = 1
+module-margin = 2 
+
+modules-left = rofi i3
+modules-center =  
+modules-right = filesystem-root filesystem-home memory cpu  ethup temperature gpu-temp xkeyboard pulseaudio date powermenu
+
+tray-position = right
+tray-padding = 2
+enable-ipc = true
+cursor-click = pointer
+
+[module/pulseaudio]
+type = internal/pulseaudio
+interval = 2
+use-ui-max = false
+
+format-volume = <ramp-volume> <label-volume>
+label-volume = %percentage%%
+label-volume-foreground = ${root.foreground}
+
+label-muted =  %percentage%%
+label-muted-foreground = #666
+
+ramp-volume-0 = 
+ramp-volume-1 = 
+ramp-volume-2 = 
+click-right = pavucontrol &
+
+
+
+[module/temperature]
+type = internal/temperature
+thermal-zone = 0
+warn-temperature = 60
+
+format = <ramp> <label>
+format-underline = #f50a4d
+format-warn = <ramp> <label-warn>
+
+label = %temperature-c%
+label-warn = %temperature-c%
+label-warn-foreground = ${colors.secondary}
+
+ramp-0 = %{F#9900C12B}%{F}
+ramp-1 = %{F#99FFFF40}%{F}
+ramp-2 = %{F#0AFF0000}%{F}
+;ramp-3 = %{F#0AFF0000}%{F}
+;ramp-4 = %{F#0Aff0000}%{F}
+;ramp-foreground = ${colors.foreground}
+
+

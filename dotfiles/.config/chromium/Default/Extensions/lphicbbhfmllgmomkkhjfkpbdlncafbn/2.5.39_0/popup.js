@@ -1,1 +1,0 @@
-window.framework = chrome.extension.getBackgroundPage().framework;

@@ -1,0 +1,120 @@
+
+(process:550): Telegram-WARNING **: 18:58:26.179: Unfortunately, GTK integration conflicts with qgtk2 platformtheme and style. Therefore, QT_QPA_PLATFORMTHEME and QT_STYLE_OVERRIDE will be unset.
+Telegram-Message: 18:58:26.180: This can be ignored by setting TDESKTOP_I_KNOW_ABOUT_GTK_INCOMPATIBILITY environment variable to any value, however, if qgtk2 theme or style is used, this will lead to a crash.
+Telegram-Message: 18:58:26.180: GTK integration can be disabled by setting TDESKTOP_DISABLE_GTK_INTEGRATION to any value. Keep in mind that this will lead to clipboard issues and tdesktop will be unable to get settings from GTK (such as decoration layout, dark mode & more).
+
+(process:550): Telegram-WARNING **: 18:58:26.182: Application was built without embedded fonts, this may lead to font issues.
+Telegram-Message: 18:58:26.486: You can disable tray icon counter with TDESKTOP_DISABLE_TRAY_COUNTER and make it look better if it is monochrome.
+polybar|warn:  pulseaudio: using default sink alsa_output.pci-0000_0a_01.0.analog-stereo
+[ALSOFT] (EE) Failed to set real-time priority for thread: Операция не позволена (1)
+polybar|error: tray: Failed to put tray above 0x1a00002 in the stack (XCB_MATCH (8))
+error: : cannot open
+error: : cannot open
+error: : cannot open
+[000055f3db80e5b0] main libvlc: Запуск vlc с интерфейсом по умолчанию. Используйте 'cvlc' для запуска vlc без интерфейса.
+[000055f3db8d2500] main playlist: playlist is empty
+[00007fd3280041f0] prefetch stream error: unimplemented query (264) in control
+[00007fd32802ea60] mad decoder error: libmad error: bad main_data_begin pointer
+[874:874:1113/185856.271236:ERROR:sandbox_linux.cc(374)] InitializeSandbox() called with multiple threads in process gpu-process.
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[874:874:1113/185914.106673:ERROR:shared_image_manager.cc(214)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[874:874:1113/185914.107425:ERROR:shared_image_manager.cc(214)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[874:874:1113/185914.108380:ERROR:shared_image_manager.cc(214)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[874:874:1113/185914.109202:ERROR:shared_image_manager.cc(214)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[874:874:1113/185914.109828:ERROR:shared_image_manager.cc(214)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[874:874:1113/185914.110446:ERROR:shared_image_manager.cc(214)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[874:874:1113/185914.111068:ERROR:shared_image_manager.cc(214)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[840:916:1113/185925.572174:ERROR:database.cc(1698)] Passwords sqlite error 2067, errno 0: UNIQUE constraint failed: logins.origin_url, logins.username_element, logins.username_value, logins.password_element, logins.signon_realm, sql: INSERT INTO logins (origin_url, action_url, username_element, username_value, password_element, password_value, submit_element, signon_realm, preferred, date_created, blacklisted_by_user, scheme, password_type, times_used, form_data, date_synced, display_name, icon_url, federation_url, skip_zero_click, generation_upload_status, possible_username_pairs, id, date_last_used, moving_blocked_for) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[840:916:1113/185925.598800:ERROR:database.cc(1698)] Passwords sqlite error 2067, errno 0: UNIQUE constraint failed: logins.origin_url, logins.username_element, logins.username_value, logins.password_element, logins.signon_realm, sql: INSERT INTO logins (origin_url, action_url, username_element, username_value, password_element, password_value, submit_element, signon_realm, preferred, date_created, blacklisted_by_user, scheme, password_type, times_used, form_data, date_synced, display_name, icon_url, federation_url, skip_zero_click, generation_upload_status, possible_username_pairs, id, date_last_used, moving_blocked_for) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[840:914:1113/185929.953468:ERROR:database.cc(1698)] Passwords sqlite error 2067, errno 0: UNIQUE constraint failed: logins.origin_url, logins.username_element, logins.username_value, logins.password_element, logins.signon_realm, sql: INSERT INTO logins (origin_url, action_url, username_element, username_value, password_element, password_value, submit_element, signon_realm, preferred, date_created, blacklisted_by_user, scheme, password_type, times_used, form_data, date_synced, display_name, icon_url, federation_url, skip_zero_click, generation_upload_status, possible_username_pairs, id, date_last_used, moving_blocked_for) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[840:914:1113/185929.991015:ERROR:database.cc(1698)] Passwords sqlite error 2067, errno 0: UNIQUE constraint failed: logins.origin_url, logins.username_element, logins.username_value, logins.password_element, logins.signon_realm, sql: INSERT INTO logins (origin_url, action_url, username_element, username_value, password_element, password_value, submit_element, signon_realm, preferred, date_created, blacklisted_by_user, scheme, password_type, times_used, form_data, date_synced, display_name, icon_url, federation_url, skip_zero_click, generation_upload_status, possible_username_pairs, id, date_last_used, moving_blocked_for) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+[00007fd32802ea60] mad decoder error: libmad error: Huffman data overrun
+polybar|warn:  module/i3: Attempting to reconnect socket (reason: Unexpected EOF while reading header)
+polybar|error: module/i3: Failed to reconnect socket (reason: Failed to connect to i3: errno 2 (No such file or directory))
+polybar|warn:  module/i3: Attempting to reconnect socket (reason: Unexpected EOF while reading header)
+polybar|error: module/i3: Failed to reconnect socket (reason: Failed to connect to i3: errno 2 (No such file or directory))

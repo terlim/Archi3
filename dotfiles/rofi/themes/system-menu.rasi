@@ -1,0 +1,19 @@
+@theme "./app-launcher"
+
+mainbox {
+	margin: 20% 40%;
+	children: [ message, listview ];
+}
+
+listview {
+	columns: 1;
+}
+
+element-icon {
+	size: 48;
+}
+
+element-text {
+	margin: 0.3em 0 0 0;
+	font: "Roboto Nerd Font 15";
+}

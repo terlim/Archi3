@@ -1,0 +1,10 @@
+configuration {
+  font: 	      "SF Pro Display 16";
+  show-icons:         true;
+  cycle:              true;
+  hide-scrollbar:     true;
+  disable-history:    false;
+  display-drun:       "apps";
+  columns: 2;
+}
+@import "/usr/share/rofi/themes/Pop-Dark.rasi"
